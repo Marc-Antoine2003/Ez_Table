@@ -1,0 +1,2631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1150.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controleurs.TableauControleur">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <AnchorPane maxWidth="980.0" prefHeight="675.0" prefWidth="980.0" BorderPane.alignment="CENTER">
+         <children>
+            <GridPane fx:id="grilleAtomesBase" alignment="CENTER" prefHeight="498.0" prefWidth="980.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightblue;" text="N" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Li" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Be" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Na" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="K" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightblue;" text="He" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightblue;" text="C" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Mg" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightblue;" text="S" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Ca" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Ti" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Sc" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Rb" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Sr" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Y" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Cs" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Ba" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Fr" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Ra" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightblue;" text="O" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgreen;" text="Si" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightblue;" text="Cl" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Zr" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Hf" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Rf" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightblue;" text="Ne" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightblue;" text="F" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgreen;" text="B" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightblue;" text="Ar" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Al" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightblue;" text="P" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="V" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Cr" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Nb" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Mo" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Ta" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="W" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Db" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Sg" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Mn" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Co" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Fe" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Tc" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Ru" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Re" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Bh" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Hs" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Os" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Mt" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Ir" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Rh" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Ni" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Cu" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Pd" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Ag" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Pt" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Hg" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Ds" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Au" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Rg" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Zn" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Ga" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Cd" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Tl" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-background-color: lightyellow; -fx-border-color: white;" text="Cn" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgreen;" text="Ge" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgreen;" text="As" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightblue;" text="Se" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="In" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Sn" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightblue;" text="Br" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightblue;" text="Kr" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgreen;" text="Sb" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgreen;" text="Te" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightblue;" text="I" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightblue;" text="Xe" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Pb" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" text="Bi" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightgreen;" text="Po" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightblue;" text="At" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightblue;" text="Rn" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-background-color: lightyellow; -fx-border-color: white;" text="Nh" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-background-color: lightyellow; -fx-border-color: white;" text="Fl" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-background-color: lightyellow; -fx-border-color: white;" text="Mc" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-background-color: lightyellow; -fx-border-color: white;" text="Lv" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="68.0" prefWidth="53.0" style="-fx-background-color: lightyellow; -fx-border-color: white;" text="Ts" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="68.0" prefWidth="53.0" style="-fx-background-color: lightyellow; -fx-border-color: white;" text="Og" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightblue;" text="H" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Label text="3" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="4" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="11" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label prefHeight="5.0" prefWidth="28.0" text="12" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="19" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="20" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="37" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="38" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="21" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="22" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="39" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="56" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="55" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="88" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="23" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="40" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="41" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="72" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="73" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="104" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="87" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="109" GridPane.columnIndex="8" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="105" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="24" GridPane.columnIndex="5" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="42" GridPane.columnIndex="5" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="74" GridPane.columnIndex="5" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="106" GridPane.columnIndex="5" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="25" GridPane.columnIndex="6" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="43" GridPane.columnIndex="6" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="75" GridPane.columnIndex="6" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="107" GridPane.columnIndex="6" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="26" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="44" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="76" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="108" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="27" GridPane.columnIndex="8" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="28" GridPane.columnIndex="9" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="29" GridPane.columnIndex="10" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="45" GridPane.columnIndex="8" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="46" GridPane.columnIndex="9" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="78" GridPane.columnIndex="9" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="77" GridPane.columnIndex="8" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="110" GridPane.columnIndex="9" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="111" GridPane.columnIndex="10" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="47" GridPane.columnIndex="10" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="79" GridPane.columnIndex="10" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="30" GridPane.columnIndex="11" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="48" GridPane.columnIndex="11" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="80" GridPane.columnIndex="11" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="112" GridPane.columnIndex="11" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="31" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="13" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="5" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="6" GridPane.columnIndex="13" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="14" GridPane.columnIndex="13" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="32" GridPane.columnIndex="13" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="50" GridPane.columnIndex="13" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="49" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="81" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="82" GridPane.columnIndex="13" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="113" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="114" GridPane.columnIndex="13" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="83" GridPane.columnIndex="14" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="7" GridPane.columnIndex="14" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="8" GridPane.columnIndex="15" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="15" GridPane.columnIndex="14" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text=" 2" GridPane.columnIndex="17" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="16" GridPane.columnIndex="15" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="33" GridPane.columnIndex="14" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="51" GridPane.columnIndex="14" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="115" GridPane.columnIndex="14" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="116" GridPane.columnIndex="15" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="9" GridPane.columnIndex="16" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="10" GridPane.columnIndex="17" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="17" GridPane.columnIndex="16" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="18" GridPane.columnIndex="17" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="34" GridPane.columnIndex="15" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="35" GridPane.columnIndex="16" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="36" GridPane.columnIndex="17" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="52" GridPane.columnIndex="15" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="53" GridPane.columnIndex="16" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="54" GridPane.columnIndex="17" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="84" GridPane.columnIndex="15" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="85" GridPane.columnIndex="16" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="86" GridPane.columnIndex="17" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="1" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="118" GridPane.columnIndex="17" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="117" GridPane.columnIndex="16" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="17.0" prefWidth="53.0" text="57-71" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Cambria Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="17.0" prefWidth="53.0" text="89-103" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="Cambria Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="CENTER" prefHeight="71.0" prefWidth="43.0" GridPane.columnIndex="2" GridPane.columnSpan="10" GridPane.halignment="CENTER" GridPane.rowSpan="3" GridPane.valignment="CENTER">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" text="EZ  TABLE">
+                           <font>
+                              <Font name="Bodoni MT Bold" size="61.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="2.0" />
+                           </padding>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <Label alignment="BOTTOM_CENTER" text="1,008" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="6,941" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="9,012" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="22,990" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="24,305" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="39,098" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="40,078" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="85,468" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="87,62" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="132,906" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="137,327" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="223" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="226" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="44,956" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="47,867" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="88,906" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="91,224" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="178,49" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="261" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="92,906" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="50,942" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="51,996" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="54,938" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="55,845" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="58,933" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="58,693" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="63,546" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="65,39" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="69,723" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="26,982" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="10,811" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="12,018" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="14,007" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="28,086" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="30,974" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="32,065" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="15,999" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="95,94" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="180,948" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="183,84" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="262" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="266" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="186,207" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="98" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="101,07" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="102,906" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="190,23" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="195,078" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="106,42" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="192,217" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="264" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="277" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="278" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="281" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="282" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="196,967" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="112,411" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="114,818" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="118,71" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="285" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="286" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="18,998" GridPane.columnIndex="16" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="4,003" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="20,180" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="39,948" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="35,453" GridPane.columnIndex="16" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="78,96" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="72,64" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="74,922" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="121,76" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="127,6" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="126,905" GridPane.columnIndex="16" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="131,293" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="19.0" prefWidth="50.0" text="209" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="207,2" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="290" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="17.0" prefWidth="49.0" text="208,980" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="289" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="293" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="294" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="294" GridPane.columnIndex="16" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="210" GridPane.columnIndex="16" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="222" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="79,904" GridPane.columnIndex="16" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="83,8" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="204,383" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="107,868" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="200,59" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </GridPane>
+            <GridPane fx:id="grilleAtomesArtificiels" layoutX="109.0" layoutY="518.0" prefHeight="143.0" prefWidth="817.0">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="68.0" prefWidth="53.0" style="-fx-background-color: yellow; -fx-border-color: white;" text="Ac" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-background-color: lightpink; -fx-border-color: white;" text="Ce" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.1" radius="5.55" width="12.1" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-background-color: lightpink; -fx-border-color: white;" text="Pr" GridPane.columnIndex="2">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.1" radius="5.55" width="12.1" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="68.0" prefWidth="53.0" style="-fx-background-color: yellow; -fx-border-color: white;" text="Th" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-background-color: lightpink; -fx-border-color: white;" text="Pm" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="17.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.1" radius="5.55" width="12.1" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-background-color: lightpink; -fx-border-color: white;" text="Nd" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.1" radius="5.55" width="12.1" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="68.0" prefWidth="53.0" style="-fx-background-color: yellow; -fx-border-color: white;" text="Pa" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-background-color: lightpink; -fx-border-color: white;" text="Sm" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.1" radius="5.55" width="12.1" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="68.0" prefWidth="53.0" style="-fx-background-color: yellow; -fx-border-color: white;" text="Am" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="17.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="68.0" prefWidth="53.0" style="-fx-background-color: yellow; -fx-border-color: white;" text="Np" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="68.0" prefWidth="53.0" style="-fx-background-color: yellow; -fx-border-color: white;" text="Pu" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="68.0" prefWidth="53.0" style="-fx-background-color: yellow; -fx-border-color: white;" text="U" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-background-color: lightpink; -fx-border-color: white;" text="Eu" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.1" radius="5.55" width="12.1" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-background-color: lightpink; -fx-border-color: white;" text="Gd" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.1" radius="5.55" width="12.1" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-background-color: lightpink; -fx-border-color: white;" text="Tb" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.1" radius="5.55" width="12.1" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="68.0" prefWidth="53.0" style="-fx-background-color: yellow; -fx-border-color: white;" text="Cm" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="68.0" prefWidth="53.0" style="-fx-background-color: yellow; -fx-border-color: white;" text="Bk" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-background-color: lightpink; -fx-border-color: white;" text="Dy" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.1" radius="5.55" width="12.1" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-background-color: lightpink; -fx-border-color: white;" text="Ho" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.1" radius="5.55" width="12.1" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-background-color: lightpink; -fx-border-color: white;" text="Er" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.1" radius="5.55" width="12.1" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-background-color: lightpink; -fx-border-color: white;" text="Tm" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="17.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.1" radius="5.55" width="12.1" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-background-color: lightpink; -fx-border-color: white;" text="Yb" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.1" radius="5.55" width="12.1" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-background-color: lightpink; -fx-border-color: white;" text="Lu" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.1" radius="5.55" width="12.1" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="68.0" prefWidth="53.0" style="-fx-background-color: yellow; -fx-border-color: white;" text="Cf" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="68.0" prefWidth="53.0" style="-fx-background-color: yellow; -fx-border-color: white;" text="Es" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="68.0" prefWidth="53.0" style="-fx-background-color: yellow; -fx-border-color: white;" text="Fm" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="68.0" prefWidth="53.0" style="-fx-background-color: yellow; -fx-border-color: white;" text="Md" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button mnemonicParsing="false" prefHeight="68.0" prefWidth="53.0" style="-fx-background-color: yellow; -fx-border-color: white;" text="No" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="68.0" prefWidth="53.0" style="-fx-background-color: yellow; -fx-border-color: white;" text="Lr" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect></Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="52.0" style="-fx-background-color: lightpink; -fx-border-color: white;" text="La" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="12.1" radius="5.55" width="12.1" />
+                     </effect></Button>
+                  <Label text="57" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="58" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="60" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="59" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="89" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="90" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="91" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="92" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="61" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="93" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="62" GridPane.columnIndex="5" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="94" GridPane.columnIndex="5" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="63" GridPane.columnIndex="6" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="95" GridPane.columnIndex="6" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="65" GridPane.columnIndex="8" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="64" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="96" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="97" GridPane.columnIndex="8" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="66" GridPane.columnIndex="9" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="98" GridPane.columnIndex="9" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="67" GridPane.columnIndex="10" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="99" GridPane.columnIndex="10" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="68" GridPane.columnIndex="11" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="69" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="70" GridPane.columnIndex="13" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="71" GridPane.columnIndex="14" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="100" GridPane.columnIndex="11" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="101" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="102" GridPane.columnIndex="13" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="103" GridPane.columnIndex="14" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                     <opaqueInsets>
+                        <Insets left="3.0" top="2.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="3.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="138,906" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="140,116" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="140,908" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="231,036" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="227" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="232,038" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="144,24" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="145" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="238,029" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="150,36" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="237" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="244" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="164,930" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="167,259" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="247" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="151,964" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="157,25" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="158,925" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="162,5" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="243" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="247" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="251" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="252" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="168,934" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="257" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="258" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="173,04" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label text="174,967" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="259" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" prefWidth="50.0" text="262" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </GridPane>
+         </children>
+      </AnchorPane>
+   </center>
+   <left>
+      <VBox alignment="TOP_CENTER" maxHeight="800.0" minHeight="777.0" prefHeight="777.0" prefWidth="170.0" style="-fx-border-color: black;">
+         <children>
+            <AnchorPane fx:id="afficheAtome" maxHeight="190.0" prefHeight="190.0" prefWidth="168.0" style="-fx-background-color: lightblue; -fx-border-color: black;">
+               <children>
+                  <Label fx:id="symboleLabel" alignment="CENTER" layoutX="70.0" layoutY="52.0" prefHeight="17.0" prefWidth="28.0" text="H">
+                     <font>
+                        <Font name="Cambria Bold" size="37.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="masseMolLabel" layoutX="65.0" layoutY="167.0" text="1,008">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="numAtomiqueLabel" alignment="CENTER" contentDisplay="CENTER" layoutY="6.0" prefHeight="17.0" prefWidth="34.0" text="1">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="nomLabel" layoutX="32.0" layoutY="113.0" text="Hydrogène">
+                     <font>
+                        <Font name="Cambria" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="oxydationLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="136.0" layoutY="11.0" prefHeight="105.0" prefWidth="33.0" text="Label" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+               </children>
+            </AnchorPane>
+            <VBox alignment="TOP_CENTER" prefHeight="608.0" prefWidth="168.0" spacing="8.0" style="-fx-border-color: black;">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <Label text="Électron-négativité :" />
+                  <Label fx:id="electroLabel" text="Label" />
+                  <Label text="point de vaporisation : " />
+                  <Label fx:id="vapoLabel" text="Label" />
+                  <Label text="énergie d'ionisation : " />
+                  <Label fx:id="ioLabel" text="Label" />
+                  <Label text="État :" />
+                  <Label fx:id="etatLabel" text="Label" />
+                  <Label text="point de fusion : " />
+                  <Label fx:id="fusionLabel" text="Label" />
+                  <Label text="Couches d'électrons : " />
+                  <Label fx:id="couchesLabel" text="Label" />
+                  <Label text="Famille :" />
+                  <Label fx:id="familleLabel" text="Label" />
+                  <Label text="Période :" />
+                  <Label fx:id="periodeLabel" text="Label" />
+                  <Label text="Bloc :" />
+                  <Label fx:id="blocLabel" text="Label" />
+                  <Label text="Rayon atomique :" />
+                  <Label fx:id="rayonLabel" text="Label" />
+                  <Label text="Radioactivité :" />
+                  <Label fx:id="radioLabel" text="Label" />
+               </children>
+               <padding>
+                  <Insets top="16.0" />
+               </padding>
+            </VBox>
+         </children></VBox>
+   </left>
+   <bottom>
+      <HBox maxWidth="982.0" prefHeight="115.0" prefWidth="980.0" BorderPane.alignment="CENTER_RIGHT">
+         <padding>
+            <Insets left="3.0" top="2.0" />
+         </padding>
+         <children>
+            <VBox alignment="CENTER_RIGHT" prefHeight="113.0" prefWidth="292.0" spacing="10.0">
+               <children>
+                  <ImageView fitHeight="52.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true" styleClass="b">
+                     <image>
+                        <Image url="@vert.png" />
+                     </image>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="34.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@gris.png" />
+                     </image>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect>
+                  </ImageView>
+               </children>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </VBox>
+            <VBox alignment="CENTER_LEFT" prefHeight="113.0" prefWidth="100.0" spacing="24.0">
+               <children>
+                  <Label text=" : Métalloïdes  " />
+                  <Label text=" : Métaux" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER_LEFT" prefHeight="113.0" prefWidth="5.0" spacing="10.0">
+               <children>
+                  <ImageView fitHeight="33.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@bleu.png" />
+                     </image>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="34.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@light%20yellow.png" />
+                     </image>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect>
+                  </ImageView>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER_LEFT" prefHeight="113.0" prefWidth="100.0" spacing="25.0">
+               <children>
+                  <Label text=" : Non-métaux" />
+                  <Label text=" : Inconnus" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER_LEFT" prefHeight="113.0" prefWidth="5.0" spacing="10.0">
+               <children>
+                  <ImageView fitHeight="33.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@rose.png" />
+                     </image>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="34.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@yellow.png" />
+                     </image>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
+                     </effect>
+                  </ImageView>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER_LEFT" prefHeight="113.0" prefWidth="166.0" spacing="25.0">
+               <children>
+                  <Label text=" : Lanthanides " />
+                  <Label text=" : Actinides " />
+               </children>
+            </VBox>
+         </children></HBox>
+   </bottom>
+</BorderPane>
