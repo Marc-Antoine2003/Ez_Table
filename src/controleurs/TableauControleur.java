@@ -1,5 +1,6 @@
 package controleurs;
 
+import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -79,20 +80,13 @@ public class TableauControleur {
 
     private void initialiserEvents() {
         EventHandler<MouseEvent> gestionDessus = (MouseEvent me) -> {
-            if (me.getTarget() instanceof Button || me.getTarget() instanceof Label) {
-                Button bouton = null;
+            if (me.getTarget() instanceof Button) {
+                Button bouton = (Button) me.getTarget();
 
-                if (me.getTarget() instanceof Button) {
-                    bouton = (Button) me.getTarget();
+                if (boutonSousSouris != null && bouton != boutonSousSouris)
+                    enleverAnimation(boutonSousSouris);
 
-                    if (boutonSousSouris != null && bouton != boutonSousSouris)
-                        enleverAnimation(boutonSousSouris);
-
-                    boutonSousSouris = bouton;
-                }
-
-                else if (boutonSousSouris != null)
-                    bouton = boutonSousSouris;
+                boutonSousSouris = bouton;
 
                 bouton.setStyle("-fx-border-color: blue; -fx-border-width: 2; -fx-background-color: " + getBackgroundColor(bouton.getStyle()) + ";");
             }
@@ -104,7 +98,7 @@ public class TableauControleur {
             }
         };
 
-        EventHandler<MouseEvent> gestionClic =  (MouseEvent me) -> {
+        EventHandler<ActionEvent> gestionClic =  (ActionEvent me) -> {
             if (me.getTarget() instanceof Button) {
                 Button bouton = (Button) me.getTarget();
 
@@ -113,7 +107,7 @@ public class TableauControleur {
                         enleverAnimation(boutonSelectionne);
 
                     boutonSelectionne = bouton;
-                    bouton.setStyle("-fx-border-color: blue; -fx-border-width: 2; -fx-background-color: " + getBackgroundColor(bouton.getStyle()) + ";");
+                    bouton.setStyle("-fx-border-color: blue; -fx-border-width: 3; -fx-background-color: " + getBackgroundColor(bouton.getStyle()) + ";");
 
                     grilleAtomesBase.removeEventFilter(MouseEvent.MOUSE_ENTERED_TARGET, gestionDessus);
                     grilleAtomesBase.removeEventFilter(MouseEvent.MOUSE_EXITED_TARGET, gestionParti);
@@ -136,11 +130,11 @@ public class TableauControleur {
 
         grilleAtomesBase.addEventFilter(MouseEvent.MOUSE_ENTERED_TARGET, gestionDessus);
         grilleAtomesBase.addEventFilter(MouseEvent.MOUSE_EXITED_TARGET, gestionParti);
-        grilleAtomesBase.addEventFilter(MouseEvent.MOUSE_CLICKED, gestionClic);
+        grilleAtomesBase.addEventFilter(ActionEvent.ACTION, gestionClic);
 
         grilleAtomesArtificiels.addEventFilter(MouseEvent.MOUSE_ENTERED_TARGET, gestionDessus);
         grilleAtomesArtificiels.addEventFilter(MouseEvent.MOUSE_EXITED_TARGET, gestionParti);
-        grilleAtomesArtificiels.addEventFilter(MouseEvent.MOUSE_CLICKED, gestionClic);
+        grilleAtomesArtificiels.addEventFilter(ActionEvent.ACTION, gestionClic);
     }
 
     private void initialiserLabels() {
@@ -164,7 +158,7 @@ public class TableauControleur {
     }
 
     private String getBackgroundColor(String styleBouton) {
-        String couleur = "";
+        String couleur;
 
         if (styleBouton.contains("lightgrey"))
             couleur = "lightgrey";
@@ -181,7 +175,6 @@ public class TableauControleur {
 
         return couleur;
     }
-
 
     private void enleverAnimation(@NotNull Button bouton) {
         bouton.setStyle("-fx-border-color: white; -fx-background-color: " + getBackgroundColor(bouton.getStyle()) + ";");

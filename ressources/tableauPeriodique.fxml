@@ -690,442 +690,442 @@
                      <effect>
                         <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
                      </effect></Button>
-                  <Label text="3" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="3" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="4" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="4" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="11" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="11" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label prefHeight="5.0" prefWidth="28.0" text="12" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" prefHeight="5.0" prefWidth="28.0" text="12" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="19" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="19" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="20" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="20" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="37" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="37" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="38" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="38" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="21" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="21" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="22" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="22" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="39" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="39" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="56" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="56" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="55" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="55" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="88" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="88" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="23" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="23" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="40" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="40" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="41" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="41" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="72" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="72" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="73" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="73" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="104" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="104" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="87" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="87" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="109" GridPane.columnIndex="8" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="109" GridPane.columnIndex="8" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="105" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="105" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="24" GridPane.columnIndex="5" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="24" GridPane.columnIndex="5" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="42" GridPane.columnIndex="5" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="42" GridPane.columnIndex="5" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="74" GridPane.columnIndex="5" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="74" GridPane.columnIndex="5" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="106" GridPane.columnIndex="5" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="106" GridPane.columnIndex="5" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="25" GridPane.columnIndex="6" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="25" GridPane.columnIndex="6" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="43" GridPane.columnIndex="6" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="43" GridPane.columnIndex="6" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="75" GridPane.columnIndex="6" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="75" GridPane.columnIndex="6" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="107" GridPane.columnIndex="6" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="107" GridPane.columnIndex="6" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="26" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="26" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="44" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="44" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="76" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="76" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="108" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="108" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="27" GridPane.columnIndex="8" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="27" GridPane.columnIndex="8" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="28" GridPane.columnIndex="9" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="28" GridPane.columnIndex="9" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="29" GridPane.columnIndex="10" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="29" GridPane.columnIndex="10" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="45" GridPane.columnIndex="8" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="45" GridPane.columnIndex="8" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="46" GridPane.columnIndex="9" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="46" GridPane.columnIndex="9" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="78" GridPane.columnIndex="9" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="78" GridPane.columnIndex="9" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="77" GridPane.columnIndex="8" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="77" GridPane.columnIndex="8" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="110" GridPane.columnIndex="9" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="110" GridPane.columnIndex="9" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="111" GridPane.columnIndex="10" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="111" GridPane.columnIndex="10" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="47" GridPane.columnIndex="10" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="47" GridPane.columnIndex="10" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="79" GridPane.columnIndex="10" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="79" GridPane.columnIndex="10" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="30" GridPane.columnIndex="11" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="30" GridPane.columnIndex="11" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="48" GridPane.columnIndex="11" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="48" GridPane.columnIndex="11" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="80" GridPane.columnIndex="11" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="80" GridPane.columnIndex="11" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="112" GridPane.columnIndex="11" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="112" GridPane.columnIndex="11" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="31" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="31" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="13" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="13" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="5" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="5" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="6" GridPane.columnIndex="13" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="6" GridPane.columnIndex="13" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="14" GridPane.columnIndex="13" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="14" GridPane.columnIndex="13" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="32" GridPane.columnIndex="13" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="32" GridPane.columnIndex="13" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="50" GridPane.columnIndex="13" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="50" GridPane.columnIndex="13" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="49" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="49" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="81" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="81" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="82" GridPane.columnIndex="13" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="82" GridPane.columnIndex="13" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="113" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="113" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="114" GridPane.columnIndex="13" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="114" GridPane.columnIndex="13" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="83" GridPane.columnIndex="14" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="83" GridPane.columnIndex="14" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="7" GridPane.columnIndex="14" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="7" GridPane.columnIndex="14" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="8" GridPane.columnIndex="15" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="8" GridPane.columnIndex="15" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="15" GridPane.columnIndex="14" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="15" GridPane.columnIndex="14" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text=" 2" GridPane.columnIndex="17" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text=" 2" GridPane.columnIndex="17" GridPane.halignment="LEFT" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="16" GridPane.columnIndex="15" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="16" GridPane.columnIndex="15" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="33" GridPane.columnIndex="14" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="33" GridPane.columnIndex="14" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="51" GridPane.columnIndex="14" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="51" GridPane.columnIndex="14" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="115" GridPane.columnIndex="14" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="115" GridPane.columnIndex="14" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="116" GridPane.columnIndex="15" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="116" GridPane.columnIndex="15" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="9" GridPane.columnIndex="16" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="9" GridPane.columnIndex="16" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="10" GridPane.columnIndex="17" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="10" GridPane.columnIndex="17" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="17" GridPane.columnIndex="16" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="17" GridPane.columnIndex="16" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="18" GridPane.columnIndex="17" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="18" GridPane.columnIndex="17" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="34" GridPane.columnIndex="15" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="34" GridPane.columnIndex="15" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="35" GridPane.columnIndex="16" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="35" GridPane.columnIndex="16" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="36" GridPane.columnIndex="17" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="36" GridPane.columnIndex="17" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="52" GridPane.columnIndex="15" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="52" GridPane.columnIndex="15" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="53" GridPane.columnIndex="16" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="53" GridPane.columnIndex="16" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="54" GridPane.columnIndex="17" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="54" GridPane.columnIndex="17" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="84" GridPane.columnIndex="15" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="84" GridPane.columnIndex="15" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="85" GridPane.columnIndex="16" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="85" GridPane.columnIndex="16" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="86" GridPane.columnIndex="17" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="86" GridPane.columnIndex="17" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="1" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="1" GridPane.halignment="LEFT" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="118" GridPane.columnIndex="17" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="118" GridPane.columnIndex="17" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="117" GridPane.columnIndex="16" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="117" GridPane.columnIndex="16" GridPane.halignment="LEFT" GridPane.rowIndex="6" GridPane.valignment="TOP">
                      <padding>
                         <Insets left="3.0" top="2.0" />
                      </padding>
@@ -1155,7 +1155,7 @@
                         </Label>
                      </children>
                   </HBox>
-                  <Label alignment="BOTTOM_CENTER" text="1,008" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                  <Label alignment="BOTTOM_CENTER" disable="true" opacity="0.99" text="1,008" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
@@ -1163,7 +1163,7 @@
                         <Insets />
                      </GridPane.margin>
                   </Label>
-                  <Label text="6,941" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="6,941" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1171,7 +1171,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="9,012" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="9,012" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1179,7 +1179,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="22,990" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="22,990" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1187,7 +1187,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="24,305" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="24,305" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1195,7 +1195,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="39,098" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="39,098" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1203,7 +1203,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="40,078" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="40,078" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1211,7 +1211,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="85,468" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="85,468" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1219,7 +1219,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="87,62" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="87,62" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1227,7 +1227,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="132,906" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="132,906" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1235,7 +1235,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="137,327" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="137,327" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1243,7 +1243,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="223" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="223" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1251,7 +1251,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="226" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="226" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1259,7 +1259,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="44,956" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="44,956" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1267,7 +1267,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="47,867" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="47,867" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1275,7 +1275,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="88,906" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="88,906" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1283,7 +1283,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="91,224" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="91,224" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1291,7 +1291,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="178,49" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="178,49" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1299,7 +1299,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="261" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="261" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1307,7 +1307,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="92,906" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="92,906" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1315,7 +1315,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="50,942" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="50,942" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1323,7 +1323,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="51,996" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="51,996" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1331,7 +1331,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="54,938" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="54,938" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1339,7 +1339,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="55,845" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="55,845" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1347,7 +1347,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="58,933" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="58,933" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1355,7 +1355,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="58,693" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="58,693" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1363,7 +1363,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="63,546" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="63,546" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1371,7 +1371,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="65,39" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="65,39" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1379,7 +1379,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="69,723" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="69,723" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1387,7 +1387,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="26,982" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="26,982" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1395,7 +1395,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="10,811" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="10,811" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1403,7 +1403,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="12,018" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="12,018" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1411,7 +1411,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="14,007" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="14,007" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1419,7 +1419,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="28,086" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="28,086" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1427,7 +1427,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="30,974" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="30,974" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1435,7 +1435,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="32,065" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="32,065" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1443,7 +1443,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="15,999" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="15,999" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1451,7 +1451,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="95,94" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="95,94" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1459,7 +1459,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="180,948" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="180,948" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1467,7 +1467,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="183,84" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="183,84" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1475,7 +1475,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="262" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="262" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1483,7 +1483,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="266" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="266" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1491,7 +1491,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="186,207" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="186,207" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1499,7 +1499,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="98" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="98" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1507,7 +1507,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="101,07" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="101,07" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1515,7 +1515,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="102,906" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="102,906" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1523,7 +1523,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="190,23" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="190,23" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1531,7 +1531,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="195,078" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="195,078" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1539,7 +1539,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="106,42" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="106,42" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1547,7 +1547,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="192,217" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="192,217" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1555,7 +1555,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="264" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="264" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1563,7 +1563,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="277" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="277" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1571,7 +1571,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="278" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="278" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1579,7 +1579,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="281" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="281" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1587,7 +1587,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="282" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="282" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1595,7 +1595,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="196,967" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="196,967" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1603,7 +1603,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="112,411" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="112,411" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1611,7 +1611,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="114,818" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="114,818" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1619,7 +1619,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="118,71" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="118,71" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1627,7 +1627,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="285" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="285" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1635,7 +1635,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="286" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="286" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1643,7 +1643,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="18,998" GridPane.columnIndex="16" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="18,998" GridPane.columnIndex="16" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1651,7 +1651,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="4,003" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="4,003" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1659,7 +1659,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="20,180" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="20,180" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1667,7 +1667,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="39,948" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="39,948" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1675,7 +1675,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="35,453" GridPane.columnIndex="16" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="35,453" GridPane.columnIndex="16" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1683,7 +1683,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="78,96" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="78,96" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1691,7 +1691,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="72,64" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="72,64" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1699,7 +1699,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="74,922" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="74,922" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1707,7 +1707,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="121,76" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="121,76" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1715,7 +1715,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="127,6" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="127,6" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1723,7 +1723,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="126,905" GridPane.columnIndex="16" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="126,905" GridPane.columnIndex="16" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1731,7 +1731,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="131,293" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="131,293" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1739,7 +1739,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefHeight="19.0" prefWidth="50.0" text="209" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefHeight="19.0" prefWidth="50.0" text="209" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1747,7 +1747,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="207,2" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="207,2" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1755,7 +1755,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="290" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="290" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1763,7 +1763,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefHeight="17.0" prefWidth="49.0" text="208,980" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefHeight="17.0" prefWidth="49.0" text="208,980" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1771,7 +1771,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="289" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="289" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1779,7 +1779,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="293" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="293" GridPane.columnIndex="15" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1787,7 +1787,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="294" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="294" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1795,7 +1795,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="294" GridPane.columnIndex="16" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="294" GridPane.columnIndex="16" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1803,7 +1803,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="210" GridPane.columnIndex="16" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="210" GridPane.columnIndex="16" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1811,7 +1811,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="222" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="222" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -1819,27 +1819,27 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="79,904" GridPane.columnIndex="16" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="79,904" GridPane.columnIndex="16" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="83,8" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="83,8" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="204,383" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="204,383" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="107,868" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="107,868" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="200,59" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="200,59" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
@@ -1960,7 +1960,7 @@
                      <effect>
                         <DropShadow blurType="TWO_PASS_BOX" height="12.1" radius="5.55" width="12.1" />
                      </effect></Button>
-                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-background-color: lightpink; -fx-border-color: white;" text="Gd" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                  <Button alignment="CENTER" mnemonicParsing="false" opacity="0.99" prefHeight="69.0" prefWidth="53.0" style="-fx-background-color: lightpink; -fx-border-color: white;" text="Gd" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                      <font>
                         <Font name="Cambria Bold" size="18.0" />
                      </font>
@@ -2079,7 +2079,7 @@
                      <effect>
                         <DropShadow blurType="TWO_PASS_BOX" height="12.1" radius="5.55" width="12.1" />
                      </effect></Button>
-                  <Label text="57" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="57" GridPane.halignment="LEFT" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets />
                      </opaqueInsets>
@@ -2087,7 +2087,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="58" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="58" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2095,7 +2095,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="60" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="60" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2103,7 +2103,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="59" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="59" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2111,7 +2111,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="89" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="89" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2119,7 +2119,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="90" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="90" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2127,7 +2127,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="91" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="91" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2135,7 +2135,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="92" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="92" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2143,7 +2143,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="61" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="61" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2151,7 +2151,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="93" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="93" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2159,7 +2159,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="62" GridPane.columnIndex="5" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="62" GridPane.columnIndex="5" GridPane.halignment="LEFT" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2167,7 +2167,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="94" GridPane.columnIndex="5" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="94" GridPane.columnIndex="5" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2175,7 +2175,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="63" GridPane.columnIndex="6" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="63" GridPane.columnIndex="6" GridPane.halignment="LEFT" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2183,7 +2183,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="95" GridPane.columnIndex="6" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="95" GridPane.columnIndex="6" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2191,7 +2191,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="65" GridPane.columnIndex="8" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="65" GridPane.columnIndex="8" GridPane.halignment="LEFT" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2199,7 +2199,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="64" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="64" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2207,7 +2207,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="96" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="96" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2215,7 +2215,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="97" GridPane.columnIndex="8" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="97" GridPane.columnIndex="8" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2223,7 +2223,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="66" GridPane.columnIndex="9" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="66" GridPane.columnIndex="9" GridPane.halignment="LEFT" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2231,7 +2231,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="98" GridPane.columnIndex="9" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="98" GridPane.columnIndex="9" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2239,7 +2239,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="67" GridPane.columnIndex="10" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="67" GridPane.columnIndex="10" GridPane.halignment="LEFT" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2247,7 +2247,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="99" GridPane.columnIndex="10" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="99" GridPane.columnIndex="10" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2255,7 +2255,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="68" GridPane.columnIndex="11" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="68" GridPane.columnIndex="11" GridPane.halignment="LEFT" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2263,7 +2263,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="69" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="69" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2271,7 +2271,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="70" GridPane.columnIndex="13" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="70" GridPane.columnIndex="13" GridPane.halignment="LEFT" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2279,7 +2279,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="71" GridPane.columnIndex="14" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="71" GridPane.columnIndex="14" GridPane.halignment="LEFT" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2287,7 +2287,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="100" GridPane.columnIndex="11" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="100" GridPane.columnIndex="11" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2295,7 +2295,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="101" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="101" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2303,7 +2303,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="102" GridPane.columnIndex="13" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="102" GridPane.columnIndex="13" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2311,7 +2311,7 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="103" GridPane.columnIndex="14" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                  <Label disable="true" opacity="0.99" text="103" GridPane.columnIndex="14" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
                      <opaqueInsets>
                         <Insets left="3.0" top="2.0" />
                      </opaqueInsets>
@@ -2319,152 +2319,152 @@
                         <Insets left="3.0" top="2.0" />
                      </padding>
                   </Label>
-                  <Label text="138,906" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="138,906" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="140,116" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="140,116" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="140,908" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="140,908" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="231,036" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="231,036" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="227" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="227" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="232,038" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="232,038" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="144,24" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="144,24" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="145" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="145" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="238,029" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="238,029" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="150,36" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="150,36" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="237" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="237" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="244" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="244" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="164,930" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="164,930" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="167,259" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="167,259" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="247" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="247" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="151,964" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="151,964" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="157,25" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="157,25" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="158,925" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="158,925" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="162,5" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="162,5" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="243" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="243" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="247" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="247" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="251" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="251" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="252" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="252" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="168,934" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="168,934" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="257" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="257" GridPane.columnIndex="11" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="258" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="258" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="173,04" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="173,04" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label text="174,967" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                  <Label disable="true" opacity="0.99" text="174,967" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="259" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="259" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
                   </Label>
-                  <Label alignment="CENTER" prefWidth="50.0" text="262" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Label alignment="CENTER" disable="true" opacity="0.99" prefWidth="50.0" text="262" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
