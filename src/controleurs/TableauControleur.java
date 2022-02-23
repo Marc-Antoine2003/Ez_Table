@@ -1,5 +1,8 @@
 package controleurs;
 
+
+import com.sun.istack.internal.NotNull;
+import csv.Atome;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -9,7 +12,11 @@ import javafx.scene.control.Label;
 import javafx.scene.control.Menu;
 import javafx.scene.layout.*;
 import javafx.scene.input.MouseEvent;
-import org.jetbrains.annotations.NotNull;
+
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.ArrayList;
 
 public class TableauControleur {
 
@@ -72,6 +79,7 @@ public class TableauControleur {
 
     private Button boutonSousSouris;
     private Button boutonSelectionne;
+    private ArrayList<Atome> atomes = new ArrayList<>();
 
     @FXML
     void initialize() {
@@ -205,6 +213,29 @@ public class TableauControleur {
 
     private void enleverAnimation(@NotNull Button bouton) {
         bouton.setStyle("-fx-border-color: white; -fx-background-color: " + getBackgroundColor(bouton.getStyle()) + ";");
+    }
+
+    public  void recupererAtome()
+    {
+
+
+        try
+        {
+            BufferedReader reader = new BufferedReader(new FileReader("C:/Users/Darks/Desktop/CSV/ressources/csv/atomes.csv"));
+            String line;
+            while ((line = reader.readLine()) != null)
+            {
+                String[] values = line.split(",");
+
+
+                Atome atome = new Atome(values[0], values[1], values[2], values[3], values[4], values[5], values[6], values[7], values[8], values[9], values[10], values[11], values[12], values[13], values[14], values[15]);
+                atomes.add(atome);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
     }
     
 
