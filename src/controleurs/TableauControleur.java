@@ -3,8 +3,10 @@ package controleurs;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.Menu;
 import javafx.scene.layout.*;
 import javafx.scene.input.MouseEvent;
 import org.jetbrains.annotations.NotNull;
@@ -157,6 +159,32 @@ public class TableauControleur {
         afficheAtome.setStyle("-fx-border-color: black");
     }
 
+    @FXML
+    void calculerMasseMol(ActionEvent event) {
+
+    }
+
+
+    @FXML
+    void afficherAide(ActionEvent event) {
+
+    }
+
+    @FXML
+    void afficherFamilles(ActionEvent event) {
+
+    }
+
+    @FXML
+    void afficherLiaisons(ActionEvent event) {
+    }
+
+    @FXML
+    void afficherSchemas(ActionEvent event) {
+    }
+
+
+
     private String getBackgroundColor(String styleBouton) {
         String couleur;
 
@@ -179,4 +207,6 @@ public class TableauControleur {
     private void enleverAnimation(@NotNull Button bouton) {
         bouton.setStyle("-fx-border-color: white; -fx-background-color: " + getBackgroundColor(bouton.getStyle()) + ";");
     }
+    
+
 }

@@ -19,27 +19,6 @@
 <?import javafx.scene.text.Font?>
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1150.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controleurs.TableauControleur">
-   <top>
-      <MenuBar BorderPane.alignment="CENTER">
-        <menus>
-          <Menu mnemonicParsing="false" text="File">
-            <items>
-              <MenuItem mnemonicParsing="false" text="Close" />
-            </items>
-          </Menu>
-          <Menu mnemonicParsing="false" text="Edit">
-            <items>
-              <MenuItem mnemonicParsing="false" text="Delete" />
-            </items>
-          </Menu>
-          <Menu mnemonicParsing="false" text="Help">
-            <items>
-              <MenuItem mnemonicParsing="false" text="About" />
-            </items>
-          </Menu>
-        </menus>
-      </MenuBar>
-   </top>
    <center>
       <AnchorPane maxWidth="980.0" prefHeight="675.0" prefWidth="980.0" BorderPane.alignment="CENTER">
          <children>
@@ -2549,7 +2528,7 @@
                <children>
                   <ImageView fitHeight="52.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true" styleClass="b">
                      <image>
-                        <Image url="@vert.png" />
+                        <Image url="@couleursLegende/vert.png" />
                      </image>
                      <effect>
                         <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
@@ -2557,7 +2536,7 @@
                   </ImageView>
                   <ImageView fitHeight="34.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@gris.png" />
+                        <Image url="@couleursLegende/gris.png" />
                      </image>
                      <effect>
                         <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
@@ -2568,7 +2547,7 @@
                   <Insets />
                </HBox.margin>
             </VBox>
-            <VBox alignment="CENTER_LEFT" prefHeight="113.0" prefWidth="100.0" spacing="24.0">
+            <VBox alignment="CENTER_LEFT" prefHeight="113.0" prefWidth="133.0" spacing="24.0">
                <children>
                   <Label text=" : Métalloïdes  " />
                   <Label text=" : Métaux" />
@@ -2578,7 +2557,7 @@
                <children>
                   <ImageView fitHeight="33.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@bleu.png" />
+                        <Image url="@couleursLegende/bleu.png" />
                      </image>
                      <effect>
                         <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
@@ -2586,7 +2565,7 @@
                   </ImageView>
                   <ImageView fitHeight="34.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@light%20yellow.png" />
+                        <Image url="@couleursLegende/light%20yellow.png" />
                      </image>
                      <effect>
                         <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
@@ -2594,7 +2573,7 @@
                   </ImageView>
                </children>
             </VBox>
-            <VBox alignment="CENTER_LEFT" prefHeight="113.0" prefWidth="100.0" spacing="25.0">
+            <VBox alignment="CENTER_LEFT" prefHeight="113.0" prefWidth="133.0" spacing="25.0">
                <children>
                   <Label text=" : Non-métaux" />
                   <Label text=" : Inconnus" />
@@ -2604,7 +2583,7 @@
                <children>
                   <ImageView fitHeight="33.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@rose.png" />
+                        <Image url="@couleursLegende/rose.png" />
                      </image>
                      <effect>
                         <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
@@ -2612,7 +2591,7 @@
                   </ImageView>
                   <ImageView fitHeight="34.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@yellow.png" />
+                        <Image url="@couleursLegende/yellow.png" />
                      </image>
                      <effect>
                         <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
@@ -2620,7 +2599,7 @@
                   </ImageView>
                </children>
             </VBox>
-            <VBox alignment="CENTER_LEFT" prefHeight="113.0" prefWidth="166.0" spacing="25.0">
+            <VBox alignment="CENTER_LEFT" prefHeight="113.0" prefWidth="133.0" spacing="25.0">
                <children>
                   <Label text=" : Lanthanides " />
                   <Label text=" : Actinides " />
@@ -2628,4 +2607,35 @@
             </VBox>
          </children></HBox>
    </bottom>
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Masse molaire">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#calculerMasseMol" text="Ouvrir" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Schémas organiques">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#afficherSchemas" text="Ouvrir" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Liaisons">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#afficherLiaisons" text="Ouvrir" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Familles et périodes">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#afficherFamilles" text="Ouvrir" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Aide">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#afficherAide" text="Ouvrir" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </top>
 </BorderPane>
