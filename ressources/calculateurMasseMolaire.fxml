@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to top, #7cacf2, #81a2e0, #8398cd, #828fbc, #8086aa);" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="58.0" layoutY="20.0" prefHeight="49.0" prefWidth="506.0" text="Calculateur de masse molaire">
+         <font>
+            <Font name="Eras Demi ITC" size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldMolecule" layoutX="171.0" layoutY="165.0" prefHeight="75.0" prefWidth="279.0" style="-fx-background-radius: 50; -fx-background-color: #C2C3C9;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font size="25.0" />
+         </font></TextField>
+      <Label fx:id="masseMolecule" layoutX="198.0" layoutY="272.0" prefHeight="86.0" prefWidth="205.0" />
+      <Label layoutX="6.0" layoutY="160.0" prefHeight="86.0" prefWidth="205.0" text="Veuillez entrer la molécule souhaitée" wrapText="true">
+         <font>
+            <Font name="Cambria" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="272.0" prefHeight="86.0" prefWidth="158.0" text="La masse de la molécule est de : " wrapText="true">
+         <font>
+            <Font name="Cambria" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="227.0" layoutY="143.0" prefHeight="17.0" prefWidth="169.0" text="Faire attention aux majuscules">
+         <font>
+            <Font name="Cambria" size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="458.0" layoutY="166.0" mnemonicParsing="false" onAction="#calculerMasseMolaire" prefHeight="75.0" prefWidth="135.0" style="-fx-background-radius: 50; -fx-background-color: #C2C3C9;" text="Calculer">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="Cambria" size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="49.0" fitWidth="89.0" layoutX="497.0" layoutY="334.0" onMouseClicked="#retourFenetrePrincipale" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@60577.png" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <Label layoutX="546.0" layoutY="326.0" text="Retour">
+         <font>
+            <Font name="Cambria Bold Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>
