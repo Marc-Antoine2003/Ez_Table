@@ -2458,12 +2458,12 @@
          <children>
             <AnchorPane fx:id="afficheAtome" maxHeight="190.0" prefHeight="190.0" prefWidth="168.0" style="-fx-background-color: lightblue; -fx-border-color: black;">
                <children>
-                  <Label fx:id="symboleLabel" alignment="CENTER" layoutX="70.0" layoutY="52.0" prefHeight="17.0" prefWidth="28.0" text="H">
+                  <Label fx:id="symboleLabel" alignment="CENTER" layoutX="34.0" layoutY="52.0" prefHeight="45.0" prefWidth="100.0" text="H">
                      <font>
                         <Font name="Cambria Bold" size="37.0" />
                      </font>
                   </Label>
-                  <Label fx:id="masseMolLabel" layoutX="65.0" layoutY="167.0" text="1,008">
+                  <Label fx:id="masseMolLabel" alignment="CENTER" layoutX="11.0" layoutY="169.0" prefHeight="25.0" prefWidth="149.0" text="1,008">
                      <font>
                         <Font size="16.0" />
                      </font>
@@ -2473,12 +2473,12 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <Label fx:id="nomLabel" layoutX="32.0" layoutY="113.0" text="Hydrogène">
+                  <Label fx:id="nomLabel" alignment="CENTER" layoutX="10.0" layoutY="116.0" prefHeight="27.0" prefWidth="151.0" text="Hydrogène">
                      <font>
                         <Font name="Cambria" size="22.0" />
                      </font>
                   </Label>
-                  <Label fx:id="oxydationLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="136.0" layoutY="11.0" prefHeight="105.0" prefWidth="33.0" text="Label" textAlignment="CENTER">
+                  <Label fx:id="oxydationLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="136.0" layoutY="11.0" prefHeight="105.0" prefWidth="33.0" text="Label" textAlignment="CENTER" wrapText="true">
                      <font>
                         <Font size="18.0" />
                      </font></Label>

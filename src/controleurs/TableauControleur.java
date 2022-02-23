@@ -6,6 +6,7 @@ import csv.Atome;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.scene.Node;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -16,7 +17,9 @@ import javafx.scene.input.MouseEvent;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.util.ArrayList;
+import java.io.InputStreamReader;
+import java.net.URL;
+import java.util.*;
 
 public class TableauControleur {
 
@@ -79,13 +82,14 @@ public class TableauControleur {
 
     private Button boutonSousSouris;
     private Button boutonSelectionne;
-    private ArrayList<Atome> atomes = new ArrayList<>();
+    private HashMap<String, Atome> atomes = new HashMap<>();
 
     @FXML
     void initialize() {
-
         initialiserLabels();
         initialiserEvents();
+        recupererAtome();
+        assignerAtomes();
     }
 
     private void initialiserEvents() {
@@ -99,6 +103,9 @@ public class TableauControleur {
                 boutonSousSouris = bouton;
 
                 bouton.setStyle("-fx-border-color: blue; -fx-border-width: 2; -fx-background-color: " + getBackgroundColor(bouton.getStyle()) + ";");
+
+                afficherProprietesAtome((Atome) bouton.getUserData());
+                afficheAtome.setStyle("-fx-border-color: black; -fx-background-color: " + getBackgroundColor(bouton.getStyle()) + ";");
             }
         };
 
@@ -113,6 +120,8 @@ public class TableauControleur {
                 Button bouton = (Button) me.getTarget();
 
                 if (bouton != boutonSelectionne) {
+
+                    // Animation
                     if (boutonSelectionne != null)
                         enleverAnimation(boutonSelectionne);
 
@@ -124,6 +133,9 @@ public class TableauControleur {
 
                     grilleAtomesArtificiels.removeEventFilter(MouseEvent.MOUSE_ENTERED_TARGET, gestionDessus);
                     grilleAtomesArtificiels.removeEventFilter(MouseEvent.MOUSE_EXITED_TARGET, gestionParti);
+
+                    afficherProprietesAtome((Atome) bouton.getUserData());
+                    afficheAtome.setStyle("-fx-border-color: black; -fx-background-color: " + getBackgroundColor(bouton.getStyle()) + ";");
                 }
 
                 else {
@@ -165,6 +177,18 @@ public class TableauControleur {
         numAtomiqueLabel.setText("");
         nomLabel.setText("");
         afficheAtome.setStyle("-fx-border-color: black");
+    }
+
+    private void assignerAtomes() {
+        for (Node atome : grilleAtomesBase.getChildren()) {
+            if (atome instanceof Button)
+                atome.setUserData(atomes.get(((Button) atome).getText()));
+        }
+
+        for (Node atome : grilleAtomesArtificiels.getChildren()) {
+            if (atome instanceof Button)
+                atome.setUserData(atomes.get(((Button) atome).getText()));
+        }
     }
 
     @FXML
@@ -215,13 +239,12 @@ public class TableauControleur {
         bouton.setStyle("-fx-border-color: white; -fx-background-color: " + getBackgroundColor(bouton.getStyle()) + ";");
     }
 
-    public  void recupererAtome()
+    public void recupererAtome()
     {
-
-
         try
         {
-            BufferedReader reader = new BufferedReader(new FileReader("C:/Users/Darks/Desktop/CSV/ressources/csv/atomes.csv"));
+            URL url = Thread.currentThread().getContextClassLoader().getResource("csv/atomes.csv");
+            BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
             String line;
             while ((line = reader.readLine()) != null)
             {
@@ -229,14 +252,53 @@ public class TableauControleur {
 
 
                 Atome atome = new Atome(values[0], values[1], values[2], values[3], values[4], values[5], values[6], values[7], values[8], values[9], values[10], values[11], values[12], values[13], values[14], values[15]);
-                atomes.add(atome);
+                atomes.put(atome.getAbreviation(), atome);
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-
     }
-    
+
+    private String trouverEtat(Atome atome) {
+        String etat = "";
+
+        if (atome.getFusion() > 25)
+            etat = "Solide";
+        else if (atome.getFusion() <= 25 && atome.getEbullition() > 25)
+            etat = "Liquide";
+        else if (atome.getEbullition() <= 25)
+            etat = "Gazeux";
+
+        return etat;
+    }
+
+    private void afficherProprietesAtome(Atome atome) {
+        // Formattage du texte pour oxydations
+        String oxy = "";
+        List<Integer> oxydations = atome.getOxydations();
+        int i = 0;
+        if (oxydations.size() > 0) {
+            while (i < oxydations.size() - 1) {
+                oxy += oxydations.get(i) + ", ";
+                i++;
+            }
+            oxy += oxydations.get(i);
+        }
+        oxydationLabel.setText(oxy);
+
+        electroLabel.setText(String.valueOf(atome.getElectronegativite()));
+        vapoLabel.setText(String.valueOf(atome.getEbullition()));
+        fusionLabel.setText(String.valueOf(atome.getFusion()));
+        couchesLabel.setText(String.valueOf(atome.getConfigElectroniqueText()));
+        familleLabel.setText(String.valueOf(atome.getFamille()));
+        periodeLabel.setText(String.valueOf(atome.getPeriode()));
+        blocLabel.setText(String.valueOf(atome.getBlock()));
+        rayonLabel.setText(String.valueOf(atome.getRayonAtomique()));
+        symboleLabel.setText(String.valueOf(atome.getAbreviation()));
+        masseMolLabel.setText(String.valueOf(atome.getMasse()));
+        numAtomiqueLabel.setText(String.valueOf(atome.getNumeroAtomique()));
+        nomLabel.setText(String.valueOf(atome.getNom()));
+        etatLabel.setText(trouverEtat(atome));
+    }
 
 }
