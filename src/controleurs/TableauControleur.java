@@ -167,7 +167,6 @@ public class TableauControleur {
 
     @FXML
     void afficherAide(ActionEvent event) {
-
     }
 
     @FXML
