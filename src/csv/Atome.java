@@ -15,7 +15,7 @@ public class Atome {
     private String rayonAtomique;
     private String rayonVander;
     private String configElectroniqueText;
-    private ArrayList<Integer> oxydations = new ArrayList<Integer>();
+    private ArrayList<Integer> oxydations = new ArrayList<>();
     private double electronegativite;
     private double fusion;
     private double ebullition;
