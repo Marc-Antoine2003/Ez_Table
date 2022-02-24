@@ -1,6 +1,8 @@
 package csv;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Atome {
 
@@ -15,7 +17,7 @@ public class Atome {
     private String rayonAtomique;
     private String rayonVander;
     private String configElectroniqueText;
-    private ArrayList<Integer> oxydations = new ArrayList<>();
+    private List<String> oxydations = new ArrayList<>();
     private double electronegativite;
     private double fusion;
     private double ebullition;
@@ -143,7 +145,7 @@ public class Atome {
         this.configElectroniqueText = configElectronique;
     }
 
-    public ArrayList<Integer> getOxydations() {
+    public List<String> getOxydations() {
         return oxydations;
     }
 
@@ -151,9 +153,13 @@ public class Atome {
         if(!oxydations.isEmpty()) {
             String[] nivOxy = oxydations.split(". ");
 
+            for (int i = 0; i < nivOxy.length; i++) {
+                if (!nivOxy[i].contains("-") && !nivOxy[i].contains("+") && !nivOxy[i].equals("0"))
+                    nivOxy[i] = "+" + nivOxy[i];
+            }
 
+            this.oxydations = Arrays.asList(nivOxy);
         }
-
     }
 
     public double getElectronegativite() {
@@ -183,8 +189,15 @@ public class Atome {
         this.ebullition = Double.parseDouble(ebullition);
     }
 
-    public boolean isRadioactivite() {
-        return radioactivite;
+    public String isRadioactivite() {
+        String retour;
+
+        if (radioactivite)
+            retour = "Oui";
+        else
+            retour = "Non";
+
+        return retour;
     }
     public void setRadioactivite(String radioactivite) {
             if ( Integer.parseInt(radioactivite) == 1)

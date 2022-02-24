@@ -2478,9 +2478,9 @@
                         <Font name="Cambria" size="22.0" />
                      </font>
                   </Label>
-                  <Label fx:id="oxydationLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="136.0" layoutY="11.0" prefHeight="105.0" prefWidth="33.0" text="Label" textAlignment="CENTER" wrapText="true">
+                  <Label fx:id="oxydationLabel" alignment="TOP_RIGHT" contentDisplay="CENTER" layoutX="101.0" layoutY="11.0" prefHeight="105.0" prefWidth="68.0" text="Label" textAlignment="RIGHT">
                      <font>
-                        <Font size="18.0" />
+                        <Font size="14.0" />
                      </font></Label>
                </children>
             </AnchorPane>

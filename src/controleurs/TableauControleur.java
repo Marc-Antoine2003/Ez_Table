@@ -6,17 +6,21 @@ import csv.Atome;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
+import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.Menu;
 import javafx.scene.layout.*;
 import javafx.scene.input.MouseEvent;
+import javafx.stage.Stage;
 
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.util.*;
@@ -193,7 +197,9 @@ public class TableauControleur {
 
     @FXML
     void calculerMasseMol(ActionEvent event) {
-
+        Stage masseMolStage = new Stage();
+        masseMolStage.setTitle("EZ Table - Calculateur de masse molaire");
+        masseMolStage.show();
     }
 
 
@@ -273,19 +279,7 @@ public class TableauControleur {
     }
 
     private void afficherProprietesAtome(Atome atome) {
-        // Formattage du texte pour oxydations
-        String oxy = "";
-        List<Integer> oxydations = atome.getOxydations();
-        int i = 0;
-        if (oxydations.size() > 0) {
-            while (i < oxydations.size() - 1) {
-                oxy += oxydations.get(i) + ", ";
-                i++;
-            }
-            oxy += oxydations.get(i);
-        }
-        oxydationLabel.setText(oxy);
-
+        oxydationLabel.setText(formattageOxydations(atome));
         electroLabel.setText(String.valueOf(atome.getElectronegativite()));
         vapoLabel.setText(String.valueOf(atome.getEbullition()));
         fusionLabel.setText(String.valueOf(atome.getFusion()));
@@ -299,6 +293,28 @@ public class TableauControleur {
         numAtomiqueLabel.setText(String.valueOf(atome.getNumeroAtomique()));
         nomLabel.setText(String.valueOf(atome.getNom()));
         etatLabel.setText(trouverEtat(atome));
+        radioLabel.setText(atome.isRadioactivite());
     }
 
+    private String formattageOxydations(Atome atome) {
+        String oxy = "";
+        List<String> oxydations = atome.getOxydations();
+        int i = 0;
+        if (oxydations.size() > 0) {
+            while (i <= oxydations.size() - 1) {
+                if (i == oxydations.size() - 1)
+                    oxy += oxydations.get(i);
+
+                else {
+                    if (i % 2 == 1)
+                        oxy += oxydations.get(i) + ",\n";
+                    else
+                        oxy += oxydations.get(i) + ", ";
+                }
+                i++;
+            }
+        }
+
+        return oxy;
+    }
 }
