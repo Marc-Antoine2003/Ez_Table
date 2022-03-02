@@ -213,6 +213,7 @@ public class TableauControleur {
         CalculMasseControleur calculateurControleur = loaderMasseMol.getController();
         calculateurControleur.setFenetrePrincipale(fenetrePrincipale);
         calculateurControleur.setFenetreCalculateur(masseMolStage);
+        calculateurControleur.setAtomes(atomes);
 
         fenetrePrincipale.hide();
         masseMolStage.show();
@@ -337,4 +338,5 @@ public class TableauControleur {
     public void setFenetrePrincipale(Stage fenetrePrincipale) {
         this.fenetrePrincipale = fenetrePrincipale;
     }
+
 }
