@@ -16,6 +16,7 @@ import javafx.scene.control.Menu;
 import javafx.scene.layout.*;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
+import main.EZ_Table_App;
 
 
 import java.io.BufferedReader;
@@ -87,6 +88,7 @@ public class TableauControleur {
     private Button boutonSousSouris;
     private Button boutonSelectionne;
     private HashMap<String, Atome> atomes = new HashMap<>();
+    private Stage fenetrePrincipale;
 
     @FXML
     void initialize() {
@@ -199,6 +201,20 @@ public class TableauControleur {
     void calculerMasseMol(ActionEvent event) {
         Stage masseMolStage = new Stage();
         masseMolStage.setTitle("EZ Table - Calculateur de masse molaire");
+
+        FXMLLoader loaderMasseMol = new FXMLLoader(EZ_Table_App.class.getResource("calculateurMasseMolaire.fxml"));
+        try {
+            masseMolStage.setScene(new Scene(loaderMasseMol.load()));
+        }
+        catch (IOException io) {
+            io.printStackTrace();
+        }
+
+        CalculMasseControleur calculateurControleur = loaderMasseMol.getController();
+        calculateurControleur.setFenetrePrincipale(fenetrePrincipale);
+        calculateurControleur.setFenetreCalculateur(masseMolStage);
+
+        fenetrePrincipale.hide();
         masseMolStage.show();
     }
 
@@ -249,7 +265,7 @@ public class TableauControleur {
     {
         try
         {
-            URL url = Thread.currentThread().getContextClassLoader().getResource("csv/atomes.csv");
+            URL url = EZ_Table_App.class.getResource("csv/atomes.csv");
             BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
             String line;
             while ((line = reader.readLine()) != null)
@@ -316,5 +332,9 @@ public class TableauControleur {
         }
 
         return oxy;
+    }
+
+    public void setFenetrePrincipale(Stage fenetrePrincipale) {
+        this.fenetrePrincipale = fenetrePrincipale;
     }
 }
