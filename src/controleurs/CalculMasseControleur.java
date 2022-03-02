@@ -128,7 +128,9 @@ public class CalculMasseControleur {
             alert.showAndWait();
 
         }
-        masseMolecule.setText(Double.toString(masseMolaire));
+
+        masseMolaire = ((double) (Math.round(masseMolaire * 100))) / 100;
+        masseMolecule.setText(masseMolaire + " g/mol");
 
     }
 
