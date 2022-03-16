@@ -9,10 +9,8 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Scene;
-import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.control.Menu;
 import javafx.scene.layout.*;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
@@ -20,7 +18,6 @@ import main.EZ_Table_App;
 
 
 import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
@@ -42,9 +39,6 @@ public class TableauControleur {
 
     @FXML
     private Label vapoLabel;
-
-    @FXML
-    private Label ioLabel;
 
     @FXML
     private Label etatLabel;
@@ -87,6 +81,7 @@ public class TableauControleur {
 
     private Button boutonSousSouris;
     private Button boutonSelectionne;
+    private Button boutonSelectionne2;
     private HashMap<String, Atome> atomes = new HashMap<>();
     private Stage fenetrePrincipale;
 
@@ -156,6 +151,31 @@ public class TableauControleur {
             }
         };
 
+        EventHandler<MouseEvent>gestionCTRL = (MouseEvent me) ->
+        {
+            if(me.isControlDown() && boutonSelectionne!= null)
+            {
+                if(me.getTarget()instanceof Button) {
+                    boutonSelectionne2 = (Button) me.getTarget();
+                    System.out.println("wow");
+                    Stage comparaisonStage = new Stage();
+                    FXMLLoader loaderComparaison = new FXMLLoader(EZ_Table_App.class.getResource("comparaison.fxml"));
+                    try {
+                        comparaisonStage.setScene(new Scene(loaderComparaison.load()));
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    ComparaisonControleur comparaisonControleur = loaderComparaison.getController();
+                    comparaisonControleur.setFenetreComparaison(comparaisonStage);
+                    comparaisonControleur.setAtomes(atomes);
+                    comparaisonControleur.setAtomesAComparer(boutonSelectionne, boutonSelectionne2);
+                    comparaisonControleur.setLabelAtomes();
+                    comparaisonStage.show();
+
+                }
+            }
+        };
+
         grilleAtomesBase.addEventFilter(MouseEvent.MOUSE_ENTERED_TARGET, gestionDessus);
         grilleAtomesBase.addEventFilter(MouseEvent.MOUSE_EXITED_TARGET, gestionParti);
         grilleAtomesBase.addEventFilter(ActionEvent.ACTION, gestionClic);
@@ -163,13 +183,15 @@ public class TableauControleur {
         grilleAtomesArtificiels.addEventFilter(MouseEvent.MOUSE_ENTERED_TARGET, gestionDessus);
         grilleAtomesArtificiels.addEventFilter(MouseEvent.MOUSE_EXITED_TARGET, gestionParti);
         grilleAtomesArtificiels.addEventFilter(ActionEvent.ACTION, gestionClic);
+
+
+        grilleAtomesBase.addEventFilter(MouseEvent.MOUSE_CLICKED, gestionCTRL);
     }
 
     private void initialiserLabels() {
         oxydationLabel.setText("");
         electroLabel.setText("-");
         vapoLabel.setText("-");
-        ioLabel.setText("-");
         etatLabel.setText("-");
         fusionLabel.setText("-");
         couchesLabel.setText("-");
@@ -211,14 +233,31 @@ public class TableauControleur {
         }
 
         CalculMasseControleur calculateurControleur = loaderMasseMol.getController();
-        calculateurControleur.setFenetrePrincipale(fenetrePrincipale);
         calculateurControleur.setFenetreCalculateur(masseMolStage);
         calculateurControleur.setAtomes(atomes);
 
-        fenetrePrincipale.hide();
         masseMolStage.show();
     }
 
+    @FXML
+    void dessinerOrbitales(ActionEvent event) {
+        Stage orbitalesStage = new Stage();
+        orbitalesStage.setTitle("EZ Table - Afficheur d'orbitales quantiques");
+
+//        FXMLLoader loaderOrbitales = new FXMLLoader(EZ_Table_App.class.getResource("orbitales.fxml"));
+//        try {
+//            orbitalesStage.setScene(new Scene(loaderOrbitales.load(), 600, 400, true));
+//        }
+//        catch (IOException io) {
+//            io.printStackTrace();
+//        }
+//
+        OrbitalesControleur orbitalesControleur = new OrbitalesControleur();
+//        orbitalesControleur.setFenetreOrbitales(orbitalesStage);
+        orbitalesControleur.faireTest(orbitalesStage);
+
+        orbitalesStage.show();
+    }
 
     @FXML
     void afficherAide(ActionEvent event) {

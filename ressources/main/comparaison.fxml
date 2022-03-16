@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controleurs.ComparaisonControleur">
+   <children>
+      <AnchorPane fx:id="anchorpane2" layoutX="364.0" layoutY="90.0" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: lightgreen;" AnchorPane.rightAnchor="79.0">
+         <children>
+            <Label fx:id="numatom2" alignment="CENTER" layoutY="6.0" text="1">
+               <padding>
+                  <Insets left="6.0" />
+               </padding>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="abreviation2" alignment="CENTER" layoutX="44.0" layoutY="29.0" text="K" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="43.0" AnchorPane.topAnchor="29.0">
+               <font>
+                  <Font name="Cambria Bold" size="38.0" />
+               </font>
+            </Label>
+            <Label fx:id="nom2" alignment="CENTER" layoutX="57.0" layoutY="85.0" text="Label" AnchorPane.topAnchor="81.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="masse2" layoutX="62.0" layoutY="128.0" text="Label" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="anchorpane1" layoutX="79.0" layoutY="90.0" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: lightblue;" AnchorPane.leftAnchor="79.0">
+         <children>
+            <Label fx:id="numatom1" alignment="CENTER" layoutY="6.0" text="1">
+               <padding>
+                  <Insets left="6.0" />
+               </padding>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="abreviation1" alignment="CENTER" contentDisplay="CENTER" layoutX="44.0" layoutY="29.0" text="H" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="43.0" AnchorPane.topAnchor="29.0">
+               <font>
+                  <Font name="Cambria Bold" size="38.0" />
+               </font>
+            </Label>
+            <Label fx:id="nom1" alignment="CENTER" layoutX="57.0" layoutY="81.0" text="Label" AnchorPane.topAnchor="81.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="masse1" layoutX="61.0" layoutY="128.0" text="Label" />
+         </children>
+      </AnchorPane>
+      <HBox alignment="CENTER" prefHeight="82.0" prefWidth="600.0">
+         <children>
+            <Label text="Comparaison entre deux éléments">
+               <font>
+                  <Font name="Calibri Bold" size="35.0" />
+               </font>
+               <effect>
+                  <Glow level="0.59" />
+               </effect>
+            </Label>
+         </children>
+      </HBox>
+      <VBox alignment="CENTER" layoutX="79.0" layoutY="240.0" prefHeight="485.0" prefWidth="150.0" spacing="10.0">
+         <children>
+            <Label text="Famille :" />
+            <Label fx:id="famille1" text="Label" />
+            <Label text="Période :" />
+            <Label fx:id="periode1" text="Label" />
+            <Label text="Bloc :" />
+            <Label fx:id="bloc1" text="Label" />
+            <Label text="Radioactivité :" />
+            <Label fx:id="radio1" text="Label" />
+            <Label text="État :" />
+            <Label fx:id="etat1" text="Label" />
+            <Label text="Rayon atomique :" />
+            <Label fx:id="rayon1" text="Label" />
+            <Label text="Point de fusion :" />
+            <Label fx:id="fusion1" text="Label" />
+            <Label text="Point de vaporisation :" />
+            <Label fx:id="vapo1" text="Label" />
+            <Label text="Électro-négaivitité :" />
+            <Label fx:id="electro1" text="Label" />
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" layoutY="718.0" prefHeight="82.0" prefWidth="600.0">
+         <children>
+            <Label text="Type de liaison : ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="typeliaisonlabel" text="Label">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <VBox alignment="CENTER" layoutX="371.0" layoutY="240.0" prefHeight="485.0" prefWidth="150.0" spacing="10.0">
+         <children>
+            <Label text="Famille :" />
+            <Label fx:id="famille2" text="Label" />
+            <Label text="Période :" />
+            <Label fx:id="periode2" text="Label" />
+            <Label text="Bloc :" />
+            <Label fx:id="bloc2" text="Label" />
+            <Label text="Radioactivité :" />
+            <Label fx:id="radio2" text="Label" />
+            <Label text="État :" />
+            <Label fx:id="etat2" text="Label" />
+            <Label text="Rayon atomique :" />
+            <Label fx:id="rayon2" text="Label" />
+            <Label text="Point de fusion :" />
+            <Label fx:id="fusion2" text="Label" />
+            <Label text="Point de vaporisation :" />
+            <Label fx:id="vapo2" text="Label" />
+            <Label text="Électro-négaivitité :" />
+            <Label fx:id="electro2" text="Label" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

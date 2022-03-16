@@ -20,8 +20,6 @@ public class CalculMasseControleur {
 
     @FXML
     private Label masseMolecule;
-
-    private Stage fenetrePrincipale;
     private Stage fenetreCalculateur;
 
     private HashMap<String, Atome> atomes;
@@ -144,11 +142,6 @@ public class CalculMasseControleur {
     @FXML
     void retourFenetrePrincipale(MouseEvent event) {
         fenetreCalculateur.close();
-        fenetrePrincipale.show();
-    }
-
-    public void setFenetrePrincipale(Stage fenetrePrincipale) {
-        this.fenetrePrincipale = fenetrePrincipale;
     }
 
     public void setFenetreCalculateur(Stage fenetreCalculateur) {

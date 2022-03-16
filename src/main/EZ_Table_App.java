@@ -1,13 +1,10 @@
 package main;
 
-import controleurs.CalculMasseControleur;
 import controleurs.TableauControleur;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-
-import java.io.IOException;
 
 public class EZ_Table_App extends Application {
 
