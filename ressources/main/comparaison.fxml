@@ -3,6 +3,8 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
@@ -90,7 +92,7 @@
             <Label fx:id="electro1" text="Label" />
          </children>
       </VBox>
-      <HBox alignment="CENTER_LEFT" layoutY="725.0" prefHeight="75.0" prefWidth="600.0">
+      <HBox alignment="CENTER_LEFT" layoutY="725.0" prefHeight="75.0" prefWidth="514.0">
          <children>
             <Label text="Type de liaison entre les deux éléments : ">
                <font>
@@ -104,7 +106,7 @@
             </Label>
          </children>
          <padding>
-            <Insets left="90.0" />
+            <Insets left="50.0" />
          </padding>
       </HBox>
       <VBox alignment="CENTER" layoutX="371.0" layoutY="240.0" prefHeight="485.0" prefWidth="150.0" spacing="10.0" style="-fx-background-color: #FFEBCD;">
@@ -127,6 +129,15 @@
             <Label fx:id="vapo2" text="Label" />
             <Label text="Électro-négaivitité :" />
             <Label fx:id="electro2" text="Label" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER_RIGHT" layoutX="518.0" layoutY="725.0" prefHeight="75.0" prefWidth="74.0">
+         <children>
+            <ImageView fitHeight="75.0" fitWidth="108.0" onMouseClicked="#retour" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@flècheRetour.png" />
+               </image>
+            </ImageView>
          </children>
       </VBox>
    </children>
