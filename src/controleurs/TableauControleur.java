@@ -155,9 +155,8 @@ public class TableauControleur {
         {
             if(me.isControlDown() && boutonSelectionne!= null)
             {
-                if(me.getTarget()instanceof Button) {
+                if(me.getTarget()instanceof Button && !me.getTarget().equals(boutonSelectionne)) {
                     boutonSelectionne2 = (Button) me.getTarget();
-                    System.out.println("wow");
                     Stage comparaisonStage = new Stage();
                     FXMLLoader loaderComparaison = new FXMLLoader(EZ_Table_App.class.getResource("comparaison.fxml"));
                     try {
@@ -186,6 +185,7 @@ public class TableauControleur {
 
 
         grilleAtomesBase.addEventFilter(MouseEvent.MOUSE_CLICKED, gestionCTRL);
+        grilleAtomesArtificiels.addEventFilter(MouseEvent.MOUSE_CLICKED, gestionCTRL);
     }
 
     private void initialiserLabels() {
@@ -299,6 +299,7 @@ public class TableauControleur {
 
     private void enleverAnimation(@NotNull Button bouton) {
         bouton.setStyle("-fx-border-color: white; -fx-background-color: " + getBackgroundColor(bouton.getStyle()) + ";");
+        boutonSelectionne = null;
     }
 
     public void recupererAtome()

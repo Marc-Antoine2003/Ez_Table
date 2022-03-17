@@ -18,11 +18,11 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1150.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controleurs.TableauControleur">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1150.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controleurs.TableauControleur">
    <center>
       <AnchorPane maxWidth="980.0" prefHeight="675.0" prefWidth="980.0" BorderPane.alignment="CENTER">
          <children>
-            <GridPane fx:id="grilleAtomesBase" alignment="CENTER" prefHeight="498.0" prefWidth="980.0">
+            <GridPane fx:id="grilleAtomesBase" alignment="CENTER" layoutY="-1.0" prefHeight="499.0" prefWidth="977.0">
               <columnConstraints>
                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                   <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -88,7 +88,7 @@
                      <effect>
                         <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
                      </effect></Button>
-                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightblue;" text="He" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="71.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightblue;" text="He" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                      <font>
                         <Font name="Cambria Bold" size="18.0" />
                      </font>
@@ -662,7 +662,7 @@
                      <effect>
                         <DropShadow blurType="ONE_PASS_BOX" height="12.0" radius="5.5" width="12.0" />
                      </effect></Button>
-                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="69.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightblue;" text="H" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="71.0" prefWidth="53.0" style="-fx-border-color: white; -fx-background-color: lightblue;" text="H" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                      <font>
                         <Font name="Cambria Bold" size="18.0" />
                      </font>
