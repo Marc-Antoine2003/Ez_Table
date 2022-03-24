@@ -22,9 +22,12 @@ public class Atome {
     private double fusion;
     private double ebullition;
     private boolean radioactivite;
+    private ArrayList<String> tabConfigElectronique= new ArrayList<>();
 
 
-    public Atome(String numeroAtomique, String nom, String couchesElectrons, String abreviation, String famille, String periode, String block, String masse,  String rayonAtomique, String rayonVander, String configElectronique, String oxydation, String electronegativite, String fusion, String ebullition, String  radioactivite) {
+
+
+    public Atome(String numeroAtomique, String nom, String couchesElectrons, String abreviation, String famille, String periode, String block, String masse, String rayonAtomique, String rayonVander, String configElectronique, String oxydation, String electronegativite, String fusion, String ebullition, String  radioactivite) {
 
         setNumeroAtomique(numeroAtomique);
         setNom(nom);
@@ -42,6 +45,7 @@ public class Atome {
         setFusion(fusion);
         setEbullition(ebullition);
         setRadioactivite(radioactivite);
+        setTabConfigElectronique(configElectronique);
 
     }
 
@@ -210,10 +214,131 @@ public class Atome {
             }
     }
 
+    public void setTabConfigElectronique(String tabConfigElectronique) {
+        String s = tabConfigElectronique.substring(0, 2);
+        String complet = tabConfigElectronique;
+        String[] tableau;
+
+        switch (s) {
+            case "He":
+                complet = tabConfigElectronique.replace("He", "1s2");
+                break;
+            case "Ne":
+                complet = tabConfigElectronique.replace("Ne", "1s2 2s2 2p6");
+                break;
+            case "Ar":
+                complet = tabConfigElectronique.replace("Ar", "1s2 2s2 2p6 3s2 3p6");
+                break;
+            case "Kr":
+                complet = tabConfigElectronique.replace("Kr", "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6");
+                break;
+            case "Xe":
+                complet = tabConfigElectronique.replace("Xe", "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6");
+                break;
+            case "Rn":
+                complet = tabConfigElectronique.replace("Rn", "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6");
+                break;
+        }
+
+        tableau = complet.split(" ");
+
+        for (int i = 0; i < tableau.length; i++) {
+            int couche = Integer.parseInt(tableau[i].substring(0, 1));
+            int nbElectrons = Integer.parseInt(tableau[i].substring(2, 3));
+            if (tableau[i].contains("s")) {
+
+                this.tabConfigElectronique.add(couche + "s");
+            } else if (tableau[i].contains("p")) {
+                if (nbElectrons == 1) {
+                    this.tabConfigElectronique.add(couche + "p1");
+                } else if (nbElectrons == 2) {
+                    this.tabConfigElectronique.add(couche + "p1");
+                    this.tabConfigElectronique.add(couche + "p2");
+                } else {
+                    this.tabConfigElectronique.add(couche + "p1");
+                    this.tabConfigElectronique.add(couche + "p2");
+                    this.tabConfigElectronique.add(couche + "p3");
+                }
+            } else if (tableau[i].contains("d")) {
+                if (nbElectrons == 1) {
+                    this.tabConfigElectronique.add(couche + "d1");
+                } else if (nbElectrons == 2) {
+                    this.tabConfigElectronique.add(couche + "d1");
+                    this.tabConfigElectronique.add(couche + "d2");
+                } else if (nbElectrons == 3) {
+                    this.tabConfigElectronique.add(couche + "d1");
+                    this.tabConfigElectronique.add(couche + "d2");
+                    this.tabConfigElectronique.add(couche + "d3");
+                } else if (nbElectrons == 4) {
+                    this.tabConfigElectronique.add(couche + "d1");
+                    this.tabConfigElectronique.add(couche + "d2");
+                    this.tabConfigElectronique.add(couche + "d3");
+                    this.tabConfigElectronique.add(couche + "d4");
+
+                } else {
+                    this.tabConfigElectronique.add(couche + "d1");
+                    this.tabConfigElectronique.add(couche + "d2");
+                    this.tabConfigElectronique.add(couche + "d3");
+                    this.tabConfigElectronique.add(couche + "d4");
+                    this.tabConfigElectronique.add(couche + "d5");
+
+                }
+
+            } else if (tableau[i].contains("f")) {
+                if (nbElectrons == 1) {
+                    this.tabConfigElectronique.add(couche + "f1");
+                } else if (nbElectrons == 2) {
+                    this.tabConfigElectronique.add(couche + "f1");
+                    this.tabConfigElectronique.add(couche + "f2");
+                } else if (nbElectrons == 3) {
+                    this.tabConfigElectronique.add(couche + "f1");
+                    this.tabConfigElectronique.add(couche + "f2");
+                    this.tabConfigElectronique.add(couche + "f3");
+                } else if (nbElectrons == 4) {
+                    this.tabConfigElectronique.add(couche + "f1");
+                    this.tabConfigElectronique.add(couche + "f2");
+                    this.tabConfigElectronique.add(couche + "f3");
+                    this.tabConfigElectronique.add(couche + "f4");
+
+                } else if (nbElectrons == 5) {
+                    this.tabConfigElectronique.add(couche + "f1");
+                    this.tabConfigElectronique.add(couche + "f2");
+                    this.tabConfigElectronique.add(couche + "f3");
+                    this.tabConfigElectronique.add(couche + "f4");
+                    this.tabConfigElectronique.add(couche + "f5");
+
+                } else if (nbElectrons == 6) {
+                    this.tabConfigElectronique.add(couche + "f1");
+                    this.tabConfigElectronique.add(couche + "f2");
+                    this.tabConfigElectronique.add(couche + "f3");
+                    this.tabConfigElectronique.add(couche + "f4");
+                    this.tabConfigElectronique.add(couche + "f5");
+                    this.tabConfigElectronique.add(couche + "f6");
+
+                }
+                else
+                {
+                    this.tabConfigElectronique.add(couche + "f1");
+                    this.tabConfigElectronique.add(couche + "f2");
+                    this.tabConfigElectronique.add(couche + "f3");
+                    this.tabConfigElectronique.add(couche + "f4");
+                    this.tabConfigElectronique.add(couche + "f5");
+                    this.tabConfigElectronique.add(couche + "f6");
+                    this.tabConfigElectronique.add(couche + "f7");
+                }
+            }
+        }
+
+        for(int i = 0; i < this.tabConfigElectronique.size(); i++)
+        {
+            System.out.print(this.tabConfigElectronique.get(i));
+        }
+        System.out.println("");
+    }
+
     @Override
     public String toString()
     {
-
         return getNumeroAtomique() +" " + getNom()+ ": "+ getAbreviation() + " " + configElectroniqueText;
     }
 }

@@ -244,18 +244,17 @@ public class TableauControleur {
         Stage orbitalesStage = new Stage();
         orbitalesStage.setTitle("EZ Table - Afficheur d'orbitales quantiques");
 
-//        FXMLLoader loaderOrbitales = new FXMLLoader(EZ_Table_App.class.getResource("orbitales.fxml"));
-//        try {
-//            orbitalesStage.setScene(new Scene(loaderOrbitales.load(), 600, 400, true));
-//        }
-//        catch (IOException io) {
-//            io.printStackTrace();
-//        }
-//
-        OrbitalesControleur orbitalesControleur = new OrbitalesControleur();
-//        orbitalesControleur.setFenetreOrbitales(orbitalesStage);
-        orbitalesControleur.faireTest(orbitalesStage);
 
+        FXMLLoader loaderOrbitales = new FXMLLoader(EZ_Table_App.class.getResource("orbitales.fxml"));
+        try {
+            orbitalesStage.setScene(new Scene(loaderOrbitales.load(), 800, 600, true));
+        }
+        catch (IOException io) {
+            io.printStackTrace();
+        }
+
+        ((OrbitalesControleur) loaderOrbitales.getController()).setTableauControleur(this);
+        orbitalesStage.setResizable(false);
         orbitalesStage.show();
     }
 
@@ -377,6 +376,10 @@ public class TableauControleur {
 
     public void setFenetrePrincipale(Stage fenetrePrincipale) {
         this.fenetrePrincipale = fenetrePrincipale;
+    }
+
+    public Button getBoutonSelectionne() {
+        return boutonSelectionne;
     }
 
 }

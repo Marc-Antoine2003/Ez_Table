@@ -12,6 +12,9 @@ import java.util.HashMap;
 
 public class ComparaisonControleur {
 
+    private static final String STYLE_VERT = "-fx-text-fill: green";
+    private static final String STYLE_ROUGE = "-fx-text-fill: red";
+
     @FXML
     private AnchorPane anchorpane2;
 
@@ -121,26 +124,120 @@ public class ComparaisonControleur {
         abreviation2.setText(atome2.getAbreviation());
         numatom1.setText(String.valueOf(atome1.getNumeroAtomique()));
         numatom2.setText(String.valueOf(atome2.getNumeroAtomique()));
-        masse1.setText(String.valueOf(atome1.getMasse()));
-        masse2.setText(String.valueOf(atome2.getMasse()));
-        famille1.setText(String.valueOf(atome1.getFamille()));
-        famille2.setText(String.valueOf(atome2.getFamille()));
+
+        double doubleMasse1 = atome1.getMasse();
+        double doubleMasse2 = atome2.getMasse();
+        masse1.setText(String.valueOf(doubleMasse1));
+        masse2.setText(String.valueOf(doubleMasse2));
+        if (doubleMasse1 > doubleMasse2) {
+            masse1.setStyle(STYLE_VERT);
+            masse2.setStyle(STYLE_ROUGE);
+        }
+        else if (doubleMasse1 < doubleMasse2) {
+            masse2.setStyle(STYLE_VERT);
+            masse1.setStyle(STYLE_ROUGE);
+        }
+
+        double doubleFamille1 = atome1.getFamille();
+        double doubleFamille2 = atome2.getFamille();
+        famille1.setText(String.valueOf(doubleFamille1));
+        famille2.setText(String.valueOf(doubleFamille2));
+        if (doubleFamille1 > doubleFamille2) {
+            famille1.setStyle(STYLE_VERT);
+            famille2.setStyle(STYLE_ROUGE);
+        }
+        else if (doubleFamille1 < doubleFamille2) {
+            famille2.setStyle(STYLE_VERT);
+            famille1.setStyle(STYLE_ROUGE);
+        }
+
+        double doublePeriode1 = atome1.getPeriode();
+        double doublePeriode2 = atome2.getPeriode();
         periode1.setText(String.valueOf(atome1.getPeriode()));
         periode2.setText(String.valueOf(atome2.getPeriode()));
+        if (doublePeriode1 > doublePeriode2) {
+            periode1.setStyle(STYLE_VERT);
+            periode2.setStyle(STYLE_ROUGE);
+        }
+        else if (doublePeriode1 < doublePeriode2) {
+            periode2.setStyle(STYLE_VERT);
+            periode1.setStyle(STYLE_ROUGE);
+        }
+
         bloc1.setText(String.valueOf(atome1.getBlock()));
         bloc2.setText(String.valueOf(atome2.getBlock()));
-        radio1.setText(atome1.isRadioactivite());
-        radio2.setText(atome2.isRadioactivite());
+
+        String stringRadio1 = atome1.isRadioactivite();
+        String stringRadio2 = atome2.isRadioactivite();
+        radio1.setText(stringRadio1);
+        radio2.setText(stringRadio2);
+        if (stringRadio1.equalsIgnoreCase("oui") && stringRadio2.equalsIgnoreCase("non")) {
+            radio1.setStyle(STYLE_VERT);
+            radio2.setStyle(STYLE_ROUGE);
+        }
+        else if (stringRadio1.equalsIgnoreCase("non") && stringRadio2.equalsIgnoreCase("oui")) {
+            radio2.setStyle(STYLE_VERT);
+            radio1.setStyle(STYLE_ROUGE);
+        }
+
         etat1.setText(trouverEtat(atome1));
         etat2.setText(trouverEtat(atome2));
+
+        String stringRayon1 = atome1.getRayonAtomique().split(" ")[0];
+        String stringRayon2 = atome2.getRayonAtomique().split(" ")[0];
+        stringRayon1 = stringRayon1.replace("(", "");
+        stringRayon2 = stringRayon2.replace("(", "");
+        double doubleRayon1 = Double.parseDouble(stringRayon1);
+        double doubleRayon2 = Double.parseDouble(stringRayon2);
         rayon1.setText((atome1.getRayonAtomique()));
         rayon2.setText((atome2.getRayonAtomique()));
+        if (doubleRayon1 > doubleRayon2) {
+            rayon1.setStyle(STYLE_VERT);
+            rayon2.setStyle(STYLE_ROUGE);
+        }
+        else if (doubleRayon1 < doubleRayon2) {
+            rayon2.setStyle(STYLE_VERT);
+            rayon2.setStyle(STYLE_ROUGE);
+        }
+
+        double doubleFusion1 = atome1.getFusion();
+        double doubleFusion2 = atome2.getFusion();
         fusion1.setText(String.valueOf(atome1.getFusion()));
         fusion2.setText(String.valueOf(atome2.getFusion()));
+        if (doubleFusion1 > doubleFusion2) {
+            fusion1.setStyle(STYLE_VERT);
+            fusion2.setStyle(STYLE_ROUGE);
+        }
+        else if (doubleFusion1 < doubleFusion2) {
+            fusion2.setStyle(STYLE_VERT);
+            fusion1.setStyle(STYLE_ROUGE);
+        }
+
+        double doubleVapo1 = atome1.getEbullition();
+        double doubleVapo2 = atome2.getEbullition();
         vapo1.setText(String.valueOf(atome1.getEbullition()));
         vapo2.setText(String.valueOf(atome2.getEbullition()));
+        if (doubleVapo1 > doubleVapo2) {
+            vapo1.setStyle(STYLE_VERT);
+            vapo2.setStyle(STYLE_ROUGE);
+        }
+        else if (doubleVapo1 < doubleVapo2) {
+            vapo2.setStyle(STYLE_VERT);
+            vapo1.setStyle(STYLE_ROUGE);
+        }
+
+        double doubleElectro1 = atome1.getElectronegativite();
+        double doubleElectro2 = atome2.getElectronegativite();
         electro1.setText(String.valueOf(atome1.getElectronegativite()));
         electro2.setText(String.valueOf(atome2.getElectronegativite()));
+        if (doubleElectro1 > doubleElectro2) {
+            electro1.setStyle(STYLE_VERT);
+            electro2.setStyle(STYLE_ROUGE);
+        }
+        else if (doubleElectro1 < doubleElectro2) {
+            electro2.setStyle(STYLE_VERT);
+            electro1.setStyle(STYLE_ROUGE);
+        }
 
         setCouleur();
         determinerLiaison();
