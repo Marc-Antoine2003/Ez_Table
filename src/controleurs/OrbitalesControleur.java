@@ -3,6 +3,7 @@ package controleurs;
 import csv.Atome;
 import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.SimpleDoubleProperty;
+import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.*;
@@ -313,6 +314,7 @@ public class OrbitalesControleur {
 
     private void lireFichiers(String... urls) {
         ObjModelImporter objModelImporter = new ObjModelImporter();
+        model.getChildren().clear();
 
         for (String urlActuel : urls) {
             objModelImporter.read(EZ_Table_App.class.getResource(urlActuel));
@@ -329,7 +331,7 @@ public class OrbitalesControleur {
 
     private void setCouleur(Atome atome) {
         Button[] listeButton = {b1s, b2s, b2px, b2py, b2pz, b3s, b3px, b3py, b3pz, b4s, b3d1,b3d2,b3d3,b3d4,b3d5,
-                b4px, b4py, b4pz, b5s, b4d1,b4d2,b4d3,b4d5, b6s, b4f1, b4f2, b4f3, b4f5, b4f6, b4f7, b5d1, b5d2, b5d3, b5d4, b5d5, b6px, b6py, b6pz, b7s,
+                b4px, b4py, b4pz, b5s, b4d1,b4d2,b4d3, b4d4,b4d5, b6s, b4f1, b4f2, b4f3, b4f5, b4f6, b4f7, b5d1, b5d2, b5d3, b5d4, b5d5, b6px, b6py, b6pz, b7s,
                 b5f1, b5f2, b5f3, b5f4, b5f5, b5f6, b5f7, b6d1, b6d2, b6d3, b6d4, b6d5, b7px, b7py, b7pz};
 
         String derniere = atome.getConfigElectroniqueText().substring((atome.getConfigElectroniqueText().length() -3));
@@ -338,6 +340,7 @@ public class OrbitalesControleur {
         int valeur =  Integer.parseInt(derniere.substring(2,3));
         System.out.println(valeur);
         int nbRegion = atome.getTabConfigElectronique().size();
+        labelElectrons.setText(atome.getNom()+ " : " +atome.getConfigElectroniqueText());
 
 
 
@@ -354,6 +357,10 @@ public class OrbitalesControleur {
 
 
 
+    }
+    @FXML
+    void regenerer(ActionEvent event) {
+        initialiserAtome();
     }
 
     public void initialiserAtome() {
