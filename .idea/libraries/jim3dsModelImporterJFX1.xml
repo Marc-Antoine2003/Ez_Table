@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="jim3dsModelImporterJFX1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jim3dsModelImporterJFX.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jimColModelImporterJFX.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jimFxmlModelImporterJFX.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jimObjModelImporterJFX.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jimStlMeshImporterJFX.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jimX3dModelImporterJFX.jar!/" />
+      <root url="file://$PROJECT_DIR$/lib" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/lib/apidoc" />
+    </JAVADOC>
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" />
+  </library>
+</component>

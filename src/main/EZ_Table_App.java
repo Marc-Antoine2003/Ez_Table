@@ -21,6 +21,9 @@ public class EZ_Table_App extends Application {
         primaryStage.setScene(new Scene(loaderPrimary.load()));
         controleurTableau = loaderPrimary.getController();
         controleurTableau.setFenetrePrincipale(primaryStage);
+        primaryStage.setResizable(false);
+        primaryStage.setWidth(1156);
+        primaryStage.setHeight(828);
         primaryStage.show();
     }
 
