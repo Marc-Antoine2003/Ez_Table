@@ -16,6 +16,9 @@ import javafx.scene.shape.MeshView;
 import javafx.scene.transform.Rotate;
 import javafx.scene.transform.Translate;
 
+import java.net.MalformedURLException;
+import java.net.URL;
+
 
 public class OrbitalesControleur {
 
@@ -242,10 +245,6 @@ public class OrbitalesControleur {
         model.getChildren().addAll(lumiereBasse, lumiereHaute);
 
         //Importation des objets 3D
-        ObjModelImporter objModelImporter1 = new ObjModelImporter();
-        ObjModelImporter objModelImporter2 = new ObjModelImporter();
-        objModelImporter1.read(EZ_Table_App.class.getResource("objets3D/orbitales/S/1s.obj"));
-        objModelImporter2.read(EZ_Table_App.class.getResource("objets3D/orbitales/S/2s.obj"));
 
         camera.getTransforms().addAll (
                 pivot,
@@ -254,18 +253,9 @@ public class OrbitalesControleur {
                 new Translate(0, 0, -25)
         );
 
-        for (MeshView mv : objModelImporter1.getImport()) {
-            model.getChildren().add(mv);
-        }
-
-        for (MeshView mv : objModelImporter2.getImport()) {
-            model.getChildren().add(mv);
-        }
-
+        lireFichiers("objets3D/2px.obj", "objets3D/2py.obj", "objets3D/2pz.obj");
         model.autosize();
-
         initMouseControl(model, subScene);
-
         subScene.setCamera(camera);
     }
 
@@ -308,6 +298,18 @@ public class OrbitalesControleur {
     private void genererOrbitales(Atome atome)
     {
         atome = (Atome) tableauControleur.getBoutonSelectionne().getUserData();
+    }
+
+    private void lireFichiers(String... urls) {
+        ObjModelImporter objModelImporter = new ObjModelImporter();
+
+        for (String urlActuel : urls) {
+            objModelImporter.read(EZ_Table_App.class.getResource(urlActuel));
+            for (MeshView mv : objModelImporter.getImport()) {
+                model.getChildren().add(mv);
+            }
+            objModelImporter.clear();
+        }
     }
 
     public void setTableauControleur(TableauControleur tableauControleur) {
