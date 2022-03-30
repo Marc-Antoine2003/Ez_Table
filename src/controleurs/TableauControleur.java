@@ -249,6 +249,9 @@ public class TableauControleur {
         }
 
         ((OrbitalesControleur) loaderOrbitales.getController()).setTableauControleur(this);
+        if (boutonSelectionne != null) {
+            ((OrbitalesControleur) loaderOrbitales.getController()).initialiserAtome();
+        }
         orbitalesStage.setResizable(false);
         orbitalesStage.show();
     }

@@ -16,7 +16,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="539.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controleurs.OrbitalesControleur">
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="539.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controleurs.OrbitalesControleur">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="320.0" layoutY="124.0" stroke="BLACK" strokeType="INSIDE" width="320.0">
          <fill>
@@ -24,12 +24,12 @@
                <stops>
                   <Stop>
                      <color>
-                        <Color red="0.46052631735801697" green="0.44986599683761597" blue="0.44986599683761597" />
+                        <Color blue="0.44986599683761597" green="0.44986599683761597" red="0.46052631735801697" />
                      </color>
                   </Stop>
                   <Stop offset="1.0">
                      <color>
-                        <Color red="1.0" green="1.0" blue="1.0" />
+                        <Color blue="1.0" green="1.0" red="1.0" />
                      </color>
                   </Stop>
                </stops>
@@ -87,7 +87,7 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Button fx:id="b7s" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <Button fx:id="b7s" alignment="CENTER" disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -164,7 +164,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b2p1" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="6">
+            <Button fx:id="b2px" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="6">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -175,7 +175,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b2p2" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="6">
+            <Button fx:id="b2py" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="6">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -186,7 +186,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b2p3" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="6">
+            <Button fx:id="b2pz" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="6">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -197,7 +197,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b3p1" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="5">
+            <Button fx:id="b3px" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="5">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -208,7 +208,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b3p2" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="5">
+            <Button fx:id="b3py" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="5">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -219,7 +219,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b3p3" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="5">
+            <Button fx:id="b3pz" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="5">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -230,7 +230,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b4p1" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="4">
+            <Button fx:id="b4px" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="4">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -241,7 +241,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b4p2" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="4">
+            <Button fx:id="b4py" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="4">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -252,7 +252,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b4p3" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="4">
+            <Button fx:id="b4pz" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="4">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -263,7 +263,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b5p1" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="0.0" prefWidth="17.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="3">
+            <Button fx:id="b5px" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="0.0" prefWidth="17.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="3">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -274,7 +274,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b5p2" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="0.0" prefWidth="17.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="3">
+            <Button fx:id="b5py" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="0.0" prefWidth="17.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="3">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -285,7 +285,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b5p3" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="0.0" prefWidth="17.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="3">
+            <Button fx:id="b5pz" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="0.0" prefWidth="17.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="3">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -296,7 +296,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b6p1" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="0.0" prefWidth="17.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="2">
+            <Button fx:id="b6px" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="0.0" prefWidth="17.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="2">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -307,7 +307,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b6p2" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="0.0" prefWidth="17.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="2">
+            <Button fx:id="b6py" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="0.0" prefWidth="17.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="2">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -318,7 +318,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b6p3" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="0.0" prefWidth="17.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="2">
+            <Button fx:id="b6pz" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="0.0" prefWidth="17.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="2">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -329,7 +329,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b7p1" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="1">
+            <Button fx:id="b7px" alignment="CENTER" disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="1">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -340,7 +340,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b7p2" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="1">
+            <Button fx:id="b7py" alignment="CENTER" disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="1">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -351,7 +351,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b7p3" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="1">
+            <Button fx:id="b7pz" alignment="CENTER" disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="1">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -461,7 +461,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b6d1" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="2">
+            <Button fx:id="b6d1" alignment="CENTER" disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="2">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -472,7 +472,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b6d2" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="2">
+            <Button fx:id="b6d2" alignment="CENTER" disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="2">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -483,7 +483,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b6d3" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="2">
+            <Button fx:id="b6d3" alignment="CENTER" disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="2">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -494,7 +494,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b6d4" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="2">
+            <Button fx:id="b6d4" alignment="CENTER" disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="2">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -516,7 +516,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b6d5" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="2">
+            <Button fx:id="b6d5" alignment="CENTER" disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="2">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -593,7 +593,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b5f1" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="3">
+            <Button fx:id="b5f1" alignment="CENTER" disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="3">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -604,7 +604,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b5f2" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="3">
+            <Button fx:id="b5f2" alignment="CENTER" disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="3">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -626,7 +626,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b5f3" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="3">
+            <Button fx:id="b5f3" alignment="CENTER" disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="3">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -648,7 +648,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b5f4" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="3">
+            <Button fx:id="b5f4" alignment="CENTER" disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="3">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -670,7 +670,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b5f5" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="3">
+            <Button fx:id="b5f5" alignment="CENTER" disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="3">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -692,7 +692,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b5f6" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="3">
+            <Button fx:id="b5f6" alignment="CENTER" disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="3">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>
@@ -714,7 +714,7 @@
                   <Insets bottom="2.0" left="1.0" right="1.0" top="2.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="b5f7" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="19" GridPane.rowIndex="3">
+            <Button fx:id="b5f7" alignment="CENTER" disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="58.0" style="-fx-border-color: white; -fx-background-color: lightgrey;" textAlignment="CENTER" GridPane.columnIndex="19" GridPane.rowIndex="3">
                <font>
                   <Font name="Cambria Bold" size="1.0" />
                </font>

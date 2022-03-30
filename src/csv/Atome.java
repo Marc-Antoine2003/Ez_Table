@@ -25,8 +25,6 @@ public class Atome {
     private ArrayList<String> tabConfigElectronique= new ArrayList<>();
 
 
-
-
     public Atome(String numeroAtomique, String nom, String couchesElectrons, String abreviation, String famille, String periode, String block, String masse, String rayonAtomique, String rayonVander, String configElectronique, String oxydation, String electronegativite, String fusion, String ebullition, String  radioactivite) {
 
         setNumeroAtomique(numeroAtomique);
@@ -250,14 +248,14 @@ public class Atome {
                 this.tabConfigElectronique.add(couche + "s");
             } else if (tableau[i].contains("p")) {
                 if (nbElectrons == 1) {
-                    this.tabConfigElectronique.add(couche + "p1");
+                    this.tabConfigElectronique.add(couche + "px");
                 } else if (nbElectrons == 2) {
-                    this.tabConfigElectronique.add(couche + "p1");
-                    this.tabConfigElectronique.add(couche + "p2");
+                    this.tabConfigElectronique.add(couche + "py");
+                    this.tabConfigElectronique.add(couche + "pz");
                 } else {
-                    this.tabConfigElectronique.add(couche + "p1");
-                    this.tabConfigElectronique.add(couche + "p2");
-                    this.tabConfigElectronique.add(couche + "p3");
+                    this.tabConfigElectronique.add(couche + "px");
+                    this.tabConfigElectronique.add(couche + "py");
+                    this.tabConfigElectronique.add(couche + "pz");
                 }
             } else if (tableau[i].contains("d")) {
                 if (nbElectrons == 1) {
@@ -334,6 +332,10 @@ public class Atome {
             System.out.print(this.tabConfigElectronique.get(i));
         }
         System.out.println("");
+    }
+
+    public ArrayList<String> getTabConfigElectronique() {
+        return tabConfigElectronique;
     }
 
     @Override
