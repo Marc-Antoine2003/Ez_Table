@@ -11,6 +11,7 @@ import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.*;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
@@ -81,7 +82,7 @@ public class TableauControleur {
 
     private Button boutonSousSouris;
     private Button boutonSelectionne;
-    private Button boutonSelectionne2;
+    private Button boutonSelectionneCTRL;
     private HashMap<String, Atome> atomes = new HashMap<>();
     private Stage fenetrePrincipale;
 
@@ -110,13 +111,13 @@ public class TableauControleur {
             }
         };
 
-        EventHandler<MouseEvent> gestionParti =  (MouseEvent me) -> {
+        EventHandler<MouseEvent> gestionParti = (MouseEvent me) -> {
             if (me.getTarget() instanceof Button) {
                 enleverAnimation((Button) me.getTarget());
             }
         };
 
-        EventHandler<ActionEvent> gestionClic =  (ActionEvent me) -> {
+        EventHandler<ActionEvent> gestionClic = (ActionEvent me) -> {
             if (me.getTarget() instanceof Button) {
                 Button bouton = (Button) me.getTarget();
 
@@ -137,9 +138,7 @@ public class TableauControleur {
 
                     afficherProprietesAtome((Atome) bouton.getUserData());
                     afficheAtome.setStyle("-fx-border-color: black; -fx-background-color: " + getBackgroundColor(bouton.getStyle()) + ";");
-                }
-
-                else {
+                } else {
                     enleverAnimation(bouton);
 
                     grilleAtomesBase.addEventFilter(MouseEvent.MOUSE_ENTERED_TARGET, gestionDessus);
@@ -151,12 +150,11 @@ public class TableauControleur {
             }
         };
 
-        EventHandler<MouseEvent>gestionCTRL = (MouseEvent me) ->
+        EventHandler<MouseEvent> gestionCTRL = (MouseEvent me) ->
         {
-            if(me.isControlDown() && boutonSelectionne!= null)
-            {
-                if(me.getTarget()instanceof Button && !me.getTarget().equals(boutonSelectionne)) {
-                    boutonSelectionne2 = (Button) me.getTarget();
+            if (me.isControlDown() && boutonSelectionne != null) {
+                if (me.getTarget() instanceof Button && !me.getTarget().equals(boutonSelectionne)) {
+                    boutonSelectionneCTRL = (Button) me.getTarget();
                     Stage comparaisonStage = new Stage();
                     FXMLLoader loaderComparaison = new FXMLLoader(EZ_Table_App.class.getResource("comparaison.fxml"));
                     try {
@@ -167,13 +165,13 @@ public class TableauControleur {
                     ComparaisonControleur comparaisonControleur = loaderComparaison.getController();
                     comparaisonControleur.setFenetreComparaison(comparaisonStage);
                     comparaisonControleur.setAtomes(atomes);
-                    comparaisonControleur.setAtomesAComparer(boutonSelectionne, boutonSelectionne2);
+                    comparaisonControleur.setAtomesAComparer(boutonSelectionne, boutonSelectionneCTRL);
                     comparaisonControleur.setLabelAtomes();
                     comparaisonStage.show();
-
                 }
             }
         };
+
 
         grilleAtomesBase.addEventFilter(MouseEvent.MOUSE_ENTERED_TARGET, gestionDessus);
         grilleAtomesBase.addEventFilter(MouseEvent.MOUSE_EXITED_TARGET, gestionParti);
@@ -183,8 +181,7 @@ public class TableauControleur {
         grilleAtomesArtificiels.addEventFilter(MouseEvent.MOUSE_EXITED_TARGET, gestionParti);
         grilleAtomesArtificiels.addEventFilter(ActionEvent.ACTION, gestionClic);
 
-
-        grilleAtomesBase.addEventFilter(MouseEvent.MOUSE_CLICKED, gestionCTRL);
+       grilleAtomesBase.addEventFilter(MouseEvent.MOUSE_CLICKED, gestionCTRL);
         grilleAtomesArtificiels.addEventFilter(MouseEvent.MOUSE_CLICKED, gestionCTRL);
     }
 
@@ -227,8 +224,7 @@ public class TableauControleur {
         FXMLLoader loaderMasseMol = new FXMLLoader(EZ_Table_App.class.getResource("calculateurMasseMolaire.fxml"));
         try {
             masseMolStage.setScene(new Scene(loaderMasseMol.load()));
-        }
-        catch (IOException io) {
+        } catch (IOException io) {
             io.printStackTrace();
         }
 
@@ -248,8 +244,7 @@ public class TableauControleur {
         FXMLLoader loaderOrbitales = new FXMLLoader(EZ_Table_App.class.getResource("orbitales.fxml"));
         try {
             orbitalesStage.setScene(new Scene(loaderOrbitales.load(), 800, 600, true));
-        }
-        catch (IOException io) {
+        } catch (IOException io) {
             io.printStackTrace();
         }
 
@@ -276,7 +271,6 @@ public class TableauControleur {
     }
 
 
-
     private String getBackgroundColor(String styleBouton) {
         String couleur;
 
@@ -301,15 +295,12 @@ public class TableauControleur {
         boutonSelectionne = null;
     }
 
-    public void recupererAtome()
-    {
-        try
-        {
+    public void recupererAtome() {
+        try {
             URL url = EZ_Table_App.class.getResource("csv/atomes.csv");
             BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
             String line;
-            while ((line = reader.readLine()) != null)
-            {
+            while ((line = reader.readLine()) != null) {
                 String[] values = line.split(",");
 
 

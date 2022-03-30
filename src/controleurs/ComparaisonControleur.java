@@ -183,22 +183,8 @@ public class ComparaisonControleur {
         etat1.setText(trouverEtat(atome1));
         etat2.setText(trouverEtat(atome2));
 
-        String stringRayon1 = atome1.getRayonAtomique().split(" ")[0];
-        String stringRayon2 = atome2.getRayonAtomique().split(" ")[0];
-        stringRayon1 = stringRayon1.replace("(", "");
-        stringRayon2 = stringRayon2.replace("(", "");
-        double doubleRayon1 = Double.parseDouble(stringRayon1);
-        double doubleRayon2 = Double.parseDouble(stringRayon2);
-        rayon1.setText((atome1.getRayonAtomique()));
-        rayon2.setText((atome2.getRayonAtomique()));
-        if (doubleRayon1 > doubleRayon2) {
-            rayon1.setStyle(STYLE_VERT);
-            rayon2.setStyle(STYLE_ROUGE);
-        }
-        else if (doubleRayon1 < doubleRayon2) {
-            rayon2.setStyle(STYLE_VERT);
-            rayon2.setStyle(STYLE_ROUGE);
-        }
+        rayon1.setText(atome1.getRayonAtomique());
+        rayon2.setText(atome2.getRayonAtomique());
 
         double doubleFusion1 = atome1.getFusion();
         double doubleFusion2 = atome2.getFusion();
