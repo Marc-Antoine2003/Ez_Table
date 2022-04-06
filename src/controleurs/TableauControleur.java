@@ -271,6 +271,19 @@ public class TableauControleur {
 
     @FXML
     void afficherSchemas(ActionEvent event) {
+        Stage SchemasStage = new Stage();
+        SchemasStage.setTitle("EZ Table - Afficheur de molécules en schématique");
+
+
+        FXMLLoader loaderSchemas = new FXMLLoader(EZ_Table_App.class.getResource("test.fxml"));
+        try {
+            SchemasStage.setScene(new Scene(loaderSchemas.load()));
+        }
+        catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
+        SchemasStage.setResizable(false);
+        SchemasStage.show();
     }
 
 

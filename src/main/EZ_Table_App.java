@@ -25,6 +25,8 @@ public class EZ_Table_App extends Application {
         primaryStage.setWidth(1156);
         primaryStage.setHeight(828);
         primaryStage.show();
+
+
     }
 
 }
