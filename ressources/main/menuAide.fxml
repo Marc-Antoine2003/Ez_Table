@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controleurs.menuAideControleur">
+   <children>
+      <Label alignment="CENTER" prefHeight="56.0" prefWidth="600.0" text="Aide" textAlignment="CENTER">
+         <font>
+            <Font name="Cambria" size="40.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="14.0" layoutY="308.0" prefHeight="40.0" prefWidth="200.0" text="Point de fusion">
+         <font>
+            <Font name="Cambria" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="348.0" prefHeight="40.0" prefWidth="200.0" text="Point de vaporisation">
+         <font>
+            <Font name="Cambria" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="427.0" prefHeight="40.0" prefWidth="200.0" text="Masse atomique">
+         <font>
+            <Font name="Cambria" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="387.0" prefHeight="40.0" prefWidth="200.0" text="Rayon atomique ">
+         <font>
+            <Font name="Cambria" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="467.0" prefHeight="40.0" prefWidth="200.0" text="Métalloïde ">
+         <font>
+            <Font name="Cambria" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="507.0" prefHeight="40.0" prefWidth="200.0" text="Lanthanide">
+         <font>
+            <Font name="Cambria" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="547.0" prefHeight="40.0" prefWidth="200.0" text="Actinide">
+         <font>
+            <Font name="Cambria" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="381.0" layoutY="63.0" text="Description:">
+         <font>
+            <Font name="Cambria" size="23.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label fx:id="description" alignment="TOP_CENTER" layoutX="276.0" layoutY="108.0" prefHeight="479.0" prefWidth="310.0" wrapText="true">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font></Label>
+      <Button layoutX="214.0" layoutY="316.0" mnemonicParsing="false" onAction="#afficherDescriptionFusion" prefHeight="25.0" prefWidth="32.0" style="-fx-background-radius: 90;">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button layoutX="214.0" layoutY="356.0" mnemonicParsing="false" onAction="#afficherDescriptionVapo" prefHeight="25.0" prefWidth="32.0" style="-fx-background-radius: 90;">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button layoutX="214.0" layoutY="395.0" mnemonicParsing="false" onAction="#afficherDescriptionRayon" prefHeight="25.0" prefWidth="32.0" style="-fx-background-radius: 90;">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button layoutX="214.0" layoutY="435.0" mnemonicParsing="false" onAction="#afficherDescriptionMasse" prefHeight="25.0" prefWidth="32.0" style="-fx-background-radius: 90;">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button layoutX="214.0" layoutY="475.0" mnemonicParsing="false" onAction="#afficherDescriptionMetalloide" prefHeight="25.0" prefWidth="32.0" style="-fx-background-radius: 90;">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button layoutX="214.0" layoutY="515.0" mnemonicParsing="false" onAction="#afficherDescriptionLanthanide" prefHeight="25.0" prefWidth="32.0" style="-fx-background-radius: 90;">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button layoutX="214.0" layoutY="555.0" mnemonicParsing="false" onAction="#afficherDescriptionActinide" prefHeight="25.0" prefWidth="32.0" style="-fx-background-radius: 90;">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Label layoutX="14.0" layoutY="227.0" prefHeight="82.0" prefWidth="212.0" text="Fonctionnement de la comparaison entre deux éléments du tableau" wrapText="true">
+         <font>
+            <Font name="Cambria" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="145.0" prefHeight="82.0" prefWidth="200.0" text="Fonctionnement de l'affichage schématique de molécule organique" wrapText="true">
+         <font>
+            <Font name="Cambria" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="63.0" prefHeight="82.0" prefWidth="200.0" text="Fonctionnement du calculateur de masse molaire " wrapText="true">
+         <font>
+            <Font name="Cambria" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
