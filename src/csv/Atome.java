@@ -326,12 +326,6 @@ public class Atome {
                 }
             }
         }
-
-        for(int i = 0; i < this.tabConfigElectronique.size(); i++)
-        {
-            System.out.print(this.tabConfigElectronique.get(i));
-        }
-        System.out.println("");
     }
 
     public ArrayList<String> getTabConfigElectronique() {
