@@ -2,6 +2,7 @@ package controleurs;
 
 
 import com.sun.istack.internal.NotNull;
+import com.sun.javafx.scene.control.skin.LabeledText;
 import csv.Atome;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -10,6 +11,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.CheckMenuItem;
 import javafx.scene.control.Label;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.*;
@@ -79,6 +81,9 @@ public class TableauControleur {
 
     @FXML
     private AnchorPane afficheAtome;
+
+    @FXML
+    private CheckMenuItem menuCovalent;
 
     private Button boutonSousSouris;
     private Button boutonSelectionne;
@@ -153,21 +158,48 @@ public class TableauControleur {
         EventHandler<MouseEvent> gestionCTRL = (MouseEvent me) ->
         {
             if (me.isControlDown() && boutonSelectionne != null) {
-                if (me.getTarget() instanceof Button && !me.getTarget().equals(boutonSelectionne)) {
-                    boutonSelectionneCTRL = (Button) me.getTarget();
-                    Stage comparaisonStage = new Stage();
-                    FXMLLoader loaderComparaison = new FXMLLoader(EZ_Table_App.class.getResource("comparaison.fxml"));
-                    try {
-                        comparaisonStage.setScene(new Scene(loaderComparaison.load()));
-                    } catch (IOException e) {
-                        e.printStackTrace();
+                if (me.getTarget() instanceof Button && !me.getTarget().equals(boutonSelectionne) || me.getTarget() instanceof LabeledText) {
+                    if (me.getTarget() instanceof LabeledText) {
+                        LabeledText l = (LabeledText) me.getTarget();
+                        boutonSelectionneCTRL = (Button) l.getParent();
                     }
-                    ComparaisonControleur comparaisonControleur = loaderComparaison.getController();
-                    comparaisonControleur.setFenetreComparaison(comparaisonStage);
-                    comparaisonControleur.setAtomes(atomes);
-                    comparaisonControleur.setAtomesAComparer(boutonSelectionne, boutonSelectionneCTRL);
-                    comparaisonControleur.setLabelAtomes();
-                    comparaisonStage.show();
+                    else {
+                        boutonSelectionneCTRL = (Button) me.getTarget();
+                    }
+
+                    if (menuCovalent.isSelected()) {
+                        Stage schemasStage = new Stage();
+                        schemasStage.setTitle("EZ Table - Afficheur de molécules en notation de Lewis");
+
+                        FXMLLoader loaderSchemas = new FXMLLoader(EZ_Table_App.class.getResource("test.fxml"));
+                        try {
+                            schemasStage.setScene(new Scene(loaderSchemas.load()));
+                        }
+                        catch (IOException ioe) {
+                            ioe.printStackTrace();
+                        }
+                        SchemasControleur schemasControleur = loaderSchemas.getController();
+                        schemasControleur.setAtomes((Atome) boutonSelectionne.getUserData(), (Atome) boutonSelectionneCTRL.getUserData());
+                        schemasControleur.initialiser();
+                        schemasStage.setResizable(false);
+                        schemasStage.show();
+                    }
+
+                    else {
+                        Stage comparaisonStage = new Stage();
+                        FXMLLoader loaderComparaison = new FXMLLoader(EZ_Table_App.class.getResource("comparaison.fxml"));
+                        try {
+                            comparaisonStage.setScene(new Scene(loaderComparaison.load()));
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        ComparaisonControleur comparaisonControleur = loaderComparaison.getController();
+                        comparaisonControleur.setFenetreComparaison(comparaisonStage);
+                        comparaisonControleur.setAtomes(atomes);
+                        comparaisonControleur.setAtomesAComparer(boutonSelectionne, boutonSelectionneCTRL);
+                        comparaisonControleur.setLabelAtomes();
+                        comparaisonStage.show();
+                    }
                 }
             }
         };
@@ -261,31 +293,20 @@ public class TableauControleur {
     }
 
     @FXML
-    void afficherFamilles(ActionEvent event) {
-
-    }
-
-    @FXML
     void afficherLiaisons(ActionEvent event) {
-    }
-
-    @FXML
-    void afficherSchemas(ActionEvent event) {
-        Stage SchemasStage = new Stage();
-        SchemasStage.setTitle("EZ Table - Afficheur de molécules en schématique");
-
-
-        FXMLLoader loaderSchemas = new FXMLLoader(EZ_Table_App.class.getResource("test.fxml"));
-        try {
-            SchemasStage.setScene(new Scene(loaderSchemas.load()));
+        for (Node n : grilleAtomesArtificiels.getChildren()) {
+            if (n instanceof Button)
+                n.setDisable(menuCovalent.isSelected());
         }
-        catch (IOException ioe) {
-            ioe.printStackTrace();
-        }
-        SchemasStage.setResizable(false);
-        SchemasStage.show();
-    }
 
+        for (Node n : grilleAtomesBase.getChildren()) {
+            if (n instanceof Button && (!((Atome) n.getUserData()).getAbreviation().equals("H") && ((Atome) n.getUserData()).getBlock() != 'p'
+                    && ((Atome) n.getUserData()).getAbreviation() != null && !((Atome) n.getUserData()).getAbreviation().equals("Xe")
+                    ||((Atome) n.getUserData()).getFamille() == 18)) {
+                n.setDisable(menuCovalent.isSelected());
+            }
+        }
+    }
 
     private String getBackgroundColor(String styleBouton) {
         String couleur;
